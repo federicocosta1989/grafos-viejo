@@ -126,6 +126,27 @@ def lista_pesos():
 
 def elegir_mejor_pregunta():
     return lista_de_preguntas()[lista_pesos().index(max(lista_pesos()))]
+#%%
+def armar_subgrafo():
+    pregunta = elegir_mejor_pregunta()
+    query3 = "MATCH ()-[w]->(n:Pregunta { pregunta: '"+ pregunta +"' })-[r]->() DELETE n,r,w"
+    graph.data(query3)
+    query4="MATCH (n:Pregunta { pregunta: '"+ pregunta +"' }) RETURN n"
+    z = graph.data(query4)
+    print(z)
+
+def borrar_nodos(pregunta, respuesta_usuario):
+    pregunta = "Deporte"#elegir_mejor_pregunta()
+    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(n:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(d:"+ pregunta +")-[a]->(b) where d." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN b"
+    a = graph.data(query)
+    cantidad_nodos_borrados = len(a)
+    query2 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(n:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(d:"+ pregunta +")-[a]->(b) where d." + pregunta.lower() + " <> '" + respuesta_usuario + "' DELETE b"
+    print("Se borraron " + str(cantidad_nodos_borrados) + "nodos Persona que no eran incidentes con " + respuesta_usuario)
+    return graph.data(query2)
+
+#j=json.dumps(borrar_nodos("Deporte","natacion"), indent=2)
+#print(j)
+
 #%%%
 #Conversando con Watson
         
@@ -188,19 +209,19 @@ while True:
 def mostrar_nodos(label_del_nodo):
     """ label_del_nodo puede ser cualquiera de los siguientes strings: "Inicio", "Pregunta", "Profesion", ... , "Persona" """ 
     query = "MATCH (" + label_del_nodo.lower() + ":" + label_del_nodo + ") RETURN " + label_del_nodo.lower()
-    a = json.dumps(graph.data(query))
-    return json.loads(a)
+    return graph.data(query)
 
 def mostrar_todos_los_nodos():
     query = "MATCH (nodo) RETURN nodo"
-    return json.dumps(graph.data(query), indent = 2)
-
-def mostrar_todo():
-    query = "MATCH (nodo_salida)-[arista]->(nodo_llegada) RETURN nodo_salida, nodo_llegada"
-    a = json.dumps(graph.data(query))
-    return json.loads(a)
-
+    return graph.data(query)
 #%%
+def mostrar_todo():
+    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(n:Pregunta { pregunta: 'deporte' })-[r]->(d:Deporte)-[a]->(b) where d.deporte <> 'natacion' return b"
+    return graph.data(query)
+
+print(json.dumps(mostrar_todo(), indent=2))
+
+len(mostrar_todo())
 
 
 
