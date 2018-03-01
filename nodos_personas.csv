@@ -1,0 +1,1001 @@
+﻿persona;sexo;estado_civil;cantidad_hijos;profesion;edad;deporte;comida;lugar_nacimiento
+1;femenino;casado;mas_de_dos;abogado;40-60;voleibol;pollo al horno;mendoza
+2;masculino;soltero;mas_de_dos;abogado;20-40;natacion;asado;cordoba
+3;femenino;viudo;uno;carnicero;20-40;natacion;sushi;buenos aires
+4;femenino;casado;dos;carnicero;20-40;voleibol;pizza;buenos aires
+5;femenino;casado;uno;taxista;40-60;natacion;milanesa;buenos aires
+6;masculino;casado;cero;panadero;20-40;natacion;asado;buenos aires
+7;masculino;viudo;dos;taxista;20-40;basquetbol;pizza;buenos aires
+8;femenino;soltero;uno;carnicero;20-40;voleibol;milanesa;buenos aires
+9;masculino;soltero;mas_de_dos;abogado;40-60;voleibol;asado;buenos aires
+10;masculino;soltero;uno;taxista;20-40;futbol;milanesa;buenos aires
+11;femenino;soltero;mas_de_dos;abogado;mas_de_60;natacion;sushi;buenos aires
+12;femenino;soltero;mas_de_dos;mozo;20-40;voleibol;milanesa;buenos aires
+13;masculino;casado;dos;panadero;40-60;natacion;milanesa;buenos aires
+14;femenino;soltero;cero;abogado;20-40;natacion;pizza;buenos aires
+15;femenino;soltero;dos;carnicero;mas_de_60;natacion;pizza;cordoba
+16;masculino;soltero;mas_de_dos;abogado;mas_de_60;basquetbol;asado;buenos aires
+17;femenino;casado;dos;abogado;40-60;voleibol;milanesa;buenos aires
+18;masculino;viudo;cero;abogado;mas_de_60;voleibol;asado;buenos aires
+19;femenino;soltero;dos;mozo;20-40;basquetbol;milanesa;buenos aires
+20;femenino;casado;cero;taxista;40-60;voleibol;milanesa;rosario
+21;femenino;casado;uno;taxista;40-60;natacion;asado;buenos aires
+22;masculino;soltero;dos;panadero;mas_de_60;futbol;sushi;buenos aires
+23;masculino;soltero;uno;abogado;40-60;basquetbol;milanesa;buenos aires
+24;masculino;soltero;uno;abogado;mas_de_60;futbol;asado;buenos aires
+25;femenino;casado;cero;taxista;20-40;natacion;asado;buenos aires
+26;femenino;casado;cero;taxista;40-60;futbol;sushi;buenos aires
+27;masculino;casado;mas_de_dos;abogado;40-60;futbol;milanesa;buenos aires
+28;masculino;soltero;dos;taxista;40-60;basquetbol;milanesa;buenos aires
+29;femenino;soltero;cero;panadero;20-40;natacion;milanesa;buenos aires
+30;femenino;viudo;cero;taxista;20-40;futbol;asado;buenos aires
+31;masculino;soltero;uno;taxista;20-40;natacion;milanesa;buenos aires
+32;masculino;casado;cero;abogado;20-40;futbol;milanesa;buenos aires
+33;masculino;soltero;mas_de_dos;panadero;mas_de_60;basquetbol;pizza;buenos aires
+34;masculino;casado;mas_de_dos;abogado;20-40;voleibol;milanesa;buenos aires
+35;femenino;viudo;dos;taxista;mas_de_60;natacion;milanesa;buenos aires
+36;masculino;soltero;dos;taxista;20-40;natacion;milanesa;buenos aires
+37;masculino;soltero;uno;abogado;40-60;futbol;asado;buenos aires
+38;masculino;casado;uno;taxista;mas_de_60;natacion;pizza;buenos aires
+39;femenino;viudo;uno;taxista;20-40;futbol;pizza;buenos aires
+40;femenino;casado;mas_de_dos;abogado;40-60;basquetbol;milanesa;buenos aires
+41;masculino;viudo;dos;taxista;mas_de_60;natacion;asado;buenos aires
+42;masculino;soltero;uno;taxista;20-40;basquetbol;milanesa;buenos aires
+43;femenino;viudo;dos;taxista;20-40;natacion;milanesa;buenos aires
+44;masculino;soltero;dos;taxista;20-40;voleibol;pizza;buenos aires
+45;masculino;soltero;mas_de_dos;mozo;40-60;voleibol;asado;buenos aires
+46;masculino;soltero;uno;panadero;20-40;futbol;sushi;buenos aires
+47;femenino;casado;dos;abogado;40-60;futbol;pizza;buenos aires
+48;femenino;soltero;cero;taxista;40-60;futbol;pizza;buenos aires
+49;femenino;soltero;uno;carnicero;40-60;basquetbol;pizza;buenos aires
+50;femenino;soltero;mas_de_dos;abogado;40-60;voleibol;asado;buenos aires
+51;masculino;soltero;dos;abogado;mas_de_60;natacion;asado;buenos aires
+52;femenino;soltero;cero;abogado;mas_de_60;futbol;pizza;buenos aires
+53;masculino;viudo;uno;taxista;20-40;voleibol;pizza;buenos aires
+54;femenino;casado;mas_de_dos;taxista;mas_de_60;futbol;asado;buenos aires
+55;femenino;casado;cero;panadero;20-40;futbol;milanesa;buenos aires
+56;masculino;soltero;uno;carnicero;mas_de_60;basquetbol;milanesa;buenos aires
+57;masculino;casado;dos;panadero;mas_de_60;voleibol;asado;buenos aires
+58;femenino;soltero;dos;panadero;20-40;natacion;asado;buenos aires
+59;masculino;soltero;cero;taxista;40-60;futbol;asado;buenos aires
+60;femenino;casado;uno;abogado;mas_de_60;basquetbol;milanesa;buenos aires
+61;femenino;soltero;cero;panadero;40-60;basquetbol;asado;buenos aires
+62;femenino;soltero;cero;abogado;40-60;futbol;pizza;buenos aires
+63;femenino;soltero;cero;taxista;mas_de_60;futbol;milanesa;buenos aires
+64;femenino;soltero;mas_de_dos;taxista;mas_de_60;voleibol;sushi;buenos aires
+65;femenino;viudo;cero;mozo;mas_de_60;voleibol;pizza;buenos aires
+66;masculino;viudo;uno;abogado;40-60;natacion;pizza;buenos aires
+67;femenino;soltero;mas_de_dos;carnicero;40-60;basquetbol;milanesa;buenos aires
+68;femenino;soltero;dos;abogado;mas_de_60;natacion;milanesa;buenos aires
+69;femenino;casado;mas_de_dos;taxista;20-40;futbol;asado;buenos aires
+70;femenino;casado;cero;abogado;20-40;voleibol;asado;buenos aires
+71;masculino;soltero;mas_de_dos;abogado;mas_de_60;voleibol;pollo al horno;buenos aires
+72;femenino;soltero;uno;taxista;20-40;voleibol;pizza;buenos aires
+73;masculino;casado;mas_de_dos;taxista;mas_de_60;futbol;asado;buenos aires
+74;femenino;soltero;uno;mozo;40-60;futbol;asado;buenos aires
+75;femenino;casado;dos;mozo;mas_de_60;natacion;pizza;buenos aires
+76;femenino;soltero;mas_de_dos;mozo;mas_de_60;natacion;milanesa;buenos aires
+77;femenino;soltero;dos;taxista;mas_de_60;natacion;pizza;buenos aires
+78;femenino;viudo;uno;abogado;20-40;basquetbol;asado;buenos aires
+79;masculino;viudo;dos;panadero;40-60;futbol;sushi;buenos aires
+80;masculino;soltero;cero;abogado;mas_de_60;voleibol;milanesa;buenos aires
+81;femenino;soltero;uno;abogado;20-40;futbol;milanesa;buenos aires
+82;femenino;soltero;dos;abogado;20-40;voleibol;sushi;buenos aires
+83;femenino;soltero;mas_de_dos;taxista;mas_de_60;natacion;milanesa;buenos aires
+84;masculino;soltero;cero;mozo;40-60;basquetbol;pollo al horno;buenos aires
+85;femenino;soltero;uno;carnicero;20-40;voleibol;sushi;rosario
+86;femenino;casado;uno;taxista;20-40;natacion;sushi;buenos aires
+87;masculino;casado;cero;taxista;20-40;natacion;sushi;buenos aires
+88;masculino;casado;uno;taxista;20-40;basquetbol;asado;buenos aires
+89;femenino;soltero;mas_de_dos;mozo;mas_de_60;voleibol;pizza;buenos aires
+90;femenino;casado;cero;abogado;20-40;natacion;asado;buenos aires
+91;masculino;soltero;cero;taxista;40-60;natacion;pollo al horno;mendoza
+92;masculino;casado;mas_de_dos;panadero;40-60;basquetbol;asado;buenos aires
+93;femenino;soltero;dos;taxista;40-60;basquetbol;pizza;rosario
+94;femenino;casado;dos;abogado;40-60;futbol;sushi;buenos aires
+95;masculino;casado;mas_de_dos;abogado;40-60;futbol;pollo al horno;buenos aires
+96;masculino;soltero;cero;abogado;40-60;futbol;asado;buenos aires
+97;masculino;viudo;cero;panadero;20-40;voleibol;asado;mendoza
+98;femenino;soltero;cero;abogado;20-40;basquetbol;pizza;buenos aires
+99;masculino;casado;cero;carnicero;20-40;futbol;sushi;buenos aires
+100;femenino;soltero;dos;panadero;40-60;natacion;milanesa;buenos aires
+101;femenino;casado;uno;panadero;20-40;basquetbol;milanesa;buenos aires
+102;masculino;soltero;dos;abogado;40-60;basquetbol;milanesa;buenos aires
+103;masculino;soltero;dos;taxista;mas_de_60;futbol;asado;buenos aires
+104;femenino;soltero;cero;carnicero;mas_de_60;futbol;asado;buenos aires
+105;femenino;casado;dos;taxista;mas_de_60;voleibol;asado;cordoba
+106;femenino;soltero;dos;carnicero;40-60;natacion;milanesa;buenos aires
+107;femenino;soltero;uno;abogado;20-40;natacion;pollo al horno;buenos aires
+108;masculino;soltero;uno;mozo;mas_de_60;voleibol;milanesa;buenos aires
+109;femenino;soltero;uno;panadero;40-60;natacion;pizza;mendoza
+110;femenino;soltero;cero;panadero;20-40;natacion;milanesa;buenos aires
+111;masculino;soltero;dos;panadero;40-60;voleibol;sushi;buenos aires
+112;femenino;soltero;mas_de_dos;carnicero;mas_de_60;natacion;asado;buenos aires
+113;masculino;soltero;mas_de_dos;mozo;40-60;voleibol;asado;buenos aires
+114;masculino;casado;uno;taxista;40-60;voleibol;asado;buenos aires
+115;masculino;soltero;dos;taxista;mas_de_60;basquetbol;asado;buenos aires
+116;femenino;soltero;mas_de_dos;taxista;40-60;natacion;pollo al horno;buenos aires
+117;masculino;casado;uno;abogado;40-60;futbol;asado;buenos aires
+118;femenino;soltero;dos;taxista;40-60;basquetbol;pollo al horno;buenos aires
+119;masculino;soltero;dos;mozo;40-60;voleibol;asado;buenos aires
+120;masculino;casado;mas_de_dos;abogado;mas_de_60;voleibol;asado;buenos aires
+121;femenino;soltero;uno;carnicero;mas_de_60;natacion;milanesa;rosario
+122;femenino;casado;uno;taxista;40-60;basquetbol;milanesa;buenos aires
+123;femenino;casado;dos;panadero;40-60;basquetbol;milanesa;buenos aires
+124;masculino;soltero;cero;abogado;mas_de_60;voleibol;asado;rosario
+125;femenino;soltero;cero;taxista;40-60;natacion;pollo al horno;buenos aires
+126;masculino;casado;uno;mozo;40-60;futbol;asado;buenos aires
+127;femenino;viudo;cero;panadero;20-40;basquetbol;sushi;buenos aires
+128;masculino;casado;cero;abogado;20-40;voleibol;milanesa;buenos aires
+129;femenino;soltero;uno;mozo;40-60;natacion;pizza;buenos aires
+130;femenino;soltero;uno;carnicero;mas_de_60;basquetbol;asado;buenos aires
+131;femenino;viudo;cero;taxista;40-60;voleibol;asado;buenos aires
+132;masculino;viudo;mas_de_dos;taxista;40-60;futbol;milanesa;buenos aires
+133;femenino;soltero;uno;taxista;20-40;basquetbol;asado;buenos aires
+134;masculino;soltero;uno;carnicero;mas_de_60;basquetbol;milanesa;buenos aires
+135;femenino;casado;cero;abogado;40-60;futbol;milanesa;buenos aires
+136;masculino;casado;uno;taxista;40-60;futbol;milanesa;buenos aires
+137;masculino;casado;uno;abogado;40-60;futbol;pizza;buenos aires
+138;femenino;casado;uno;carnicero;40-60;voleibol;milanesa;buenos aires
+139;femenino;soltero;cero;taxista;mas_de_60;futbol;asado;buenos aires
+140;masculino;viudo;uno;abogado;mas_de_60;basquetbol;asado;buenos aires
+141;femenino;casado;uno;panadero;40-60;basquetbol;pizza;buenos aires
+142;femenino;soltero;cero;taxista;20-40;futbol;asado;buenos aires
+143;femenino;soltero;uno;taxista;mas_de_60;basquetbol;asado;buenos aires
+144;femenino;soltero;uno;carnicero;40-60;basquetbol;asado;buenos aires
+145;femenino;casado;uno;panadero;20-40;futbol;asado;buenos aires
+146;masculino;casado;cero;carnicero;40-60;futbol;milanesa;buenos aires
+147;masculino;casado;mas_de_dos;mozo;mas_de_60;voleibol;asado;buenos aires
+148;femenino;viudo;dos;abogado;20-40;natacion;milanesa;buenos aires
+149;masculino;casado;dos;mozo;20-40;voleibol;milanesa;buenos aires
+150;femenino;casado;dos;abogado;20-40;natacion;asado;buenos aires
+151;masculino;casado;uno;abogado;mas_de_60;futbol;asado;buenos aires
+152;femenino;casado;uno;mozo;mas_de_60;natacion;milanesa;buenos aires
+153;masculino;casado;mas_de_dos;abogado;mas_de_60;natacion;milanesa;buenos aires
+154;femenino;casado;cero;abogado;20-40;voleibol;sushi;buenos aires
+155;femenino;casado;dos;taxista;40-60;basquetbol;sushi;buenos aires
+156;femenino;viudo;uno;abogado;20-40;futbol;sushi;buenos aires
+157;femenino;casado;dos;mozo;40-60;basquetbol;milanesa;buenos aires
+158;femenino;soltero;cero;abogado;40-60;voleibol;pizza;buenos aires
+159;masculino;casado;uno;abogado;40-60;voleibol;milanesa;buenos aires
+160;masculino;viudo;uno;panadero;40-60;natacion;pizza;buenos aires
+161;femenino;soltero;uno;taxista;40-60;futbol;milanesa;buenos aires
+162;masculino;casado;cero;abogado;20-40;natacion;asado;buenos aires
+163;femenino;soltero;mas_de_dos;abogado;40-60;natacion;milanesa;buenos aires
+164;femenino;soltero;cero;taxista;40-60;futbol;milanesa;buenos aires
+165;femenino;casado;cero;abogado;mas_de_60;futbol;asado;buenos aires
+166;masculino;casado;uno;taxista;mas_de_60;natacion;asado;buenos aires
+167;femenino;soltero;cero;mozo;40-60;natacion;milanesa;buenos aires
+168;masculino;soltero;uno;carnicero;40-60;basquetbol;pollo al horno;cordoba
+169;femenino;viudo;cero;abogado;mas_de_60;futbol;milanesa;buenos aires
+170;femenino;casado;dos;mozo;mas_de_60;futbol;milanesa;cordoba
+171;femenino;soltero;mas_de_dos;mozo;40-60;basquetbol;asado;buenos aires
+172;femenino;casado;mas_de_dos;panadero;mas_de_60;basquetbol;pizza;buenos aires
+173;femenino;soltero;uno;taxista;40-60;natacion;milanesa;buenos aires
+174;masculino;viudo;uno;carnicero;20-40;basquetbol;asado;buenos aires
+175;femenino;soltero;uno;abogado;mas_de_60;basquetbol;asado;buenos aires
+176;femenino;casado;dos;taxista;mas_de_60;voleibol;milanesa;rosario
+177;femenino;casado;dos;abogado;20-40;futbol;pizza;buenos aires
+178;femenino;casado;uno;panadero;40-60;voleibol;pizza;buenos aires
+179;femenino;viudo;dos;taxista;20-40;basquetbol;asado;cordoba
+180;masculino;casado;uno;abogado;40-60;natacion;milanesa;buenos aires
+181;femenino;casado;uno;panadero;20-40;voleibol;milanesa;buenos aires
+182;masculino;soltero;uno;panadero;40-60;voleibol;asado;buenos aires
+183;femenino;casado;cero;abogado;mas_de_60;natacion;pizza;buenos aires
+184;femenino;viudo;uno;taxista;40-60;natacion;sushi;buenos aires
+185;femenino;soltero;uno;abogado;20-40;voleibol;milanesa;buenos aires
+186;femenino;soltero;cero;abogado;40-60;voleibol;milanesa;buenos aires
+187;femenino;soltero;uno;taxista;40-60;futbol;asado;buenos aires
+188;femenino;soltero;cero;abogado;20-40;futbol;asado;buenos aires
+189;femenino;viudo;cero;abogado;20-40;futbol;sushi;buenos aires
+190;femenino;soltero;dos;panadero;40-60;basquetbol;pizza;buenos aires
+191;femenino;soltero;mas_de_dos;abogado;40-60;natacion;asado;buenos aires
+192;femenino;casado;dos;taxista;20-40;futbol;milanesa;cordoba
+193;masculino;soltero;mas_de_dos;taxista;mas_de_60;voleibol;sushi;buenos aires
+194;femenino;soltero;mas_de_dos;taxista;mas_de_60;natacion;asado;buenos aires
+195;femenino;soltero;uno;panadero;mas_de_60;voleibol;asado;buenos aires
+196;femenino;soltero;cero;taxista;20-40;basquetbol;milanesa;buenos aires
+197;femenino;soltero;mas_de_dos;panadero;40-60;voleibol;asado;buenos aires
+198;masculino;soltero;dos;taxista;20-40;natacion;asado;buenos aires
+199;femenino;soltero;dos;taxista;40-60;natacion;asado;buenos aires
+200;femenino;soltero;uno;taxista;40-60;futbol;milanesa;buenos aires
+201;masculino;casado;dos;taxista;20-40;voleibol;pizza;buenos aires
+202;femenino;soltero;cero;abogado;20-40;futbol;milanesa;buenos aires
+203;masculino;soltero;cero;abogado;mas_de_60;futbol;milanesa;buenos aires
+204;masculino;soltero;uno;taxista;40-60;basquetbol;sushi;buenos aires
+205;femenino;soltero;dos;abogado;20-40;natacion;milanesa;buenos aires
+206;femenino;viudo;cero;abogado;20-40;natacion;sushi;buenos aires
+207;masculino;viudo;mas_de_dos;abogado;40-60;voleibol;milanesa;buenos aires
+208;masculino;soltero;cero;mozo;20-40;voleibol;pizza;buenos aires
+209;masculino;soltero;uno;abogado;20-40;basquetbol;sushi;buenos aires
+210;femenino;casado;mas_de_dos;taxista;20-40;natacion;pizza;buenos aires
+211;femenino;casado;mas_de_dos;taxista;20-40;natacion;milanesa;buenos aires
+212;femenino;casado;cero;abogado;40-60;natacion;pizza;buenos aires
+213;masculino;viudo;cero;panadero;20-40;basquetbol;asado;buenos aires
+214;femenino;soltero;mas_de_dos;abogado;40-60;voleibol;asado;buenos aires
+215;masculino;casado;uno;taxista;40-60;voleibol;milanesa;buenos aires
+216;femenino;soltero;cero;panadero;20-40;natacion;milanesa;buenos aires
+217;masculino;casado;uno;carnicero;20-40;futbol;asado;buenos aires
+218;femenino;viudo;cero;abogado;40-60;futbol;pollo al horno;buenos aires
+219;masculino;soltero;cero;taxista;40-60;futbol;milanesa;buenos aires
+220;femenino;soltero;dos;carnicero;20-40;basquetbol;pizza;buenos aires
+221;femenino;soltero;uno;carnicero;20-40;natacion;pizza;buenos aires
+222;femenino;soltero;uno;abogado;20-40;futbol;milanesa;buenos aires
+223;femenino;casado;cero;carnicero;40-60;voleibol;milanesa;buenos aires
+224;femenino;viudo;mas_de_dos;mozo;20-40;futbol;asado;buenos aires
+225;femenino;soltero;mas_de_dos;abogado;mas_de_60;futbol;sushi;buenos aires
+226;masculino;soltero;mas_de_dos;taxista;mas_de_60;voleibol;sushi;buenos aires
+227;femenino;soltero;uno;panadero;mas_de_60;natacion;milanesa;rosario
+228;masculino;soltero;uno;abogado;40-60;basquetbol;asado;buenos aires
+229;masculino;soltero;cero;panadero;20-40;voleibol;asado;buenos aires
+230;masculino;casado;uno;carnicero;20-40;voleibol;asado;buenos aires
+231;femenino;casado;dos;taxista;20-40;futbol;milanesa;buenos aires
+232;femenino;soltero;mas_de_dos;abogado;mas_de_60;futbol;sushi;buenos aires
+233;masculino;viudo;cero;panadero;40-60;basquetbol;asado;buenos aires
+234;femenino;soltero;dos;taxista;mas_de_60;natacion;pizza;buenos aires
+235;femenino;soltero;uno;panadero;mas_de_60;natacion;sushi;buenos aires
+236;masculino;viudo;cero;taxista;mas_de_60;futbol;asado;buenos aires
+237;femenino;soltero;cero;abogado;mas_de_60;futbol;pizza;buenos aires
+238;femenino;casado;dos;taxista;20-40;natacion;pollo al horno;buenos aires
+239;masculino;casado;cero;mozo;20-40;voleibol;asado;buenos aires
+240;femenino;soltero;cero;panadero;40-60;voleibol;milanesa;buenos aires
+241;femenino;soltero;cero;mozo;20-40;futbol;asado;buenos aires
+242;femenino;casado;mas_de_dos;taxista;mas_de_60;basquetbol;asado;cordoba
+243;masculino;soltero;cero;carnicero;20-40;basquetbol;pizza;rosario
+244;masculino;viudo;uno;abogado;40-60;basquetbol;pollo al horno;buenos aires
+245;masculino;casado;uno;abogado;40-60;natacion;asado;buenos aires
+246;femenino;casado;cero;panadero;20-40;futbol;asado;buenos aires
+247;femenino;casado;cero;taxista;40-60;voleibol;sushi;buenos aires
+248;masculino;viudo;dos;abogado;20-40;voleibol;asado;buenos aires
+249;femenino;soltero;dos;taxista;40-60;natacion;milanesa;buenos aires
+250;femenino;casado;cero;panadero;40-60;basquetbol;asado;buenos aires
+251;masculino;soltero;dos;carnicero;mas_de_60;natacion;milanesa;buenos aires
+252;femenino;viudo;dos;carnicero;40-60;futbol;milanesa;buenos aires
+253;femenino;soltero;uno;abogado;20-40;basquetbol;asado;buenos aires
+254;masculino;casado;dos;mozo;mas_de_60;basquetbol;sushi;buenos aires
+255;masculino;casado;uno;taxista;mas_de_60;futbol;pizza;buenos aires
+256;femenino;soltero;uno;carnicero;40-60;futbol;milanesa;buenos aires
+257;femenino;casado;mas_de_dos;panadero;40-60;futbol;pollo al horno;buenos aires
+258;masculino;casado;uno;taxista;mas_de_60;voleibol;pollo al horno;buenos aires
+259;masculino;viudo;dos;carnicero;40-60;basquetbol;asado;buenos aires
+260;femenino;soltero;cero;panadero;20-40;natacion;pizza;cordoba
+261;masculino;soltero;dos;carnicero;20-40;voleibol;milanesa;buenos aires
+262;masculino;soltero;uno;taxista;mas_de_60;futbol;milanesa;buenos aires
+263;masculino;soltero;uno;taxista;20-40;natacion;asado;buenos aires
+264;femenino;casado;cero;panadero;20-40;basquetbol;asado;buenos aires
+265;masculino;soltero;mas_de_dos;taxista;mas_de_60;voleibol;pizza;buenos aires
+266;masculino;casado;cero;carnicero;20-40;futbol;milanesa;buenos aires
+267;femenino;soltero;uno;carnicero;mas_de_60;voleibol;pizza;buenos aires
+268;femenino;soltero;uno;abogado;20-40;basquetbol;milanesa;buenos aires
+269;masculino;soltero;uno;carnicero;mas_de_60;natacion;asado;buenos aires
+270;masculino;soltero;mas_de_dos;abogado;mas_de_60;futbol;asado;buenos aires
+271;femenino;casado;dos;abogado;20-40;natacion;asado;buenos aires
+272;masculino;viudo;mas_de_dos;taxista;20-40;futbol;milanesa;buenos aires
+273;masculino;soltero;cero;abogado;20-40;futbol;milanesa;buenos aires
+274;femenino;casado;cero;panadero;40-60;natacion;asado;buenos aires
+275;femenino;viudo;uno;taxista;40-60;futbol;asado;buenos aires
+276;masculino;soltero;cero;mozo;mas_de_60;natacion;asado;buenos aires
+277;masculino;soltero;uno;taxista;20-40;voleibol;milanesa;buenos aires
+278;femenino;casado;dos;panadero;mas_de_60;voleibol;asado;buenos aires
+279;femenino;soltero;uno;taxista;20-40;voleibol;asado;cordoba
+280;masculino;soltero;cero;abogado;40-60;futbol;pizza;buenos aires
+281;masculino;casado;cero;abogado;mas_de_60;futbol;pizza;buenos aires
+282;masculino;viudo;mas_de_dos;abogado;40-60;natacion;pizza;buenos aires
+283;masculino;soltero;mas_de_dos;panadero;40-60;natacion;asado;cordoba
+284;femenino;viudo;dos;mozo;40-60;natacion;pizza;buenos aires
+285;masculino;viudo;mas_de_dos;panadero;20-40;futbol;milanesa;cordoba
+286;femenino;casado;cero;carnicero;20-40;voleibol;asado;buenos aires
+287;femenino;casado;cero;abogado;20-40;futbol;asado;buenos aires
+288;femenino;casado;cero;taxista;mas_de_60;futbol;asado;rosario
+289;masculino;soltero;cero;mozo;20-40;natacion;asado;buenos aires
+290;masculino;casado;cero;abogado;40-60;natacion;pollo al horno;buenos aires
+291;masculino;casado;dos;abogado;40-60;futbol;milanesa;buenos aires
+292;masculino;viudo;mas_de_dos;abogado;40-60;voleibol;asado;buenos aires
+293;femenino;soltero;cero;taxista;40-60;voleibol;milanesa;buenos aires
+294;femenino;casado;cero;abogado;20-40;futbol;milanesa;buenos aires
+295;femenino;soltero;mas_de_dos;carnicero;20-40;basquetbol;milanesa;buenos aires
+296;masculino;casado;dos;abogado;mas_de_60;voleibol;asado;buenos aires
+297;masculino;casado;cero;taxista;40-60;voleibol;milanesa;buenos aires
+298;masculino;soltero;mas_de_dos;taxista;mas_de_60;futbol;pizza;buenos aires
+299;femenino;casado;dos;abogado;40-60;futbol;milanesa;buenos aires
+300;femenino;viudo;uno;abogado;40-60;voleibol;asado;buenos aires
+301;masculino;soltero;dos;abogado;20-40;futbol;milanesa;buenos aires
+302;femenino;soltero;uno;abogado;mas_de_60;voleibol;milanesa;buenos aires
+303;femenino;casado;cero;taxista;mas_de_60;natacion;pizza;buenos aires
+304;masculino;casado;uno;mozo;mas_de_60;basquetbol;milanesa;buenos aires
+305;femenino;casado;cero;abogado;20-40;futbol;asado;buenos aires
+306;masculino;casado;cero;panadero;20-40;basquetbol;milanesa;buenos aires
+307;masculino;soltero;uno;carnicero;mas_de_60;basquetbol;pizza;buenos aires
+308;femenino;casado;mas_de_dos;panadero;40-60;basquetbol;sushi;rosario
+309;femenino;casado;dos;panadero;mas_de_60;futbol;asado;buenos aires
+310;femenino;casado;mas_de_dos;taxista;mas_de_60;voleibol;milanesa;cordoba
+311;femenino;casado;dos;taxista;mas_de_60;voleibol;pizza;buenos aires
+312;femenino;casado;uno;panadero;20-40;voleibol;asado;buenos aires
+313;masculino;soltero;mas_de_dos;abogado;mas_de_60;natacion;pizza;cordoba
+314;femenino;viudo;mas_de_dos;mozo;mas_de_60;basquetbol;asado;cordoba
+315;femenino;soltero;dos;abogado;40-60;voleibol;milanesa;buenos aires
+316;masculino;soltero;dos;panadero;40-60;voleibol;pizza;rosario
+317;femenino;casado;mas_de_dos;taxista;20-40;voleibol;sushi;buenos aires
+318;femenino;soltero;uno;abogado;mas_de_60;natacion;asado;buenos aires
+319;femenino;casado;cero;abogado;20-40;natacion;milanesa;buenos aires
+320;femenino;soltero;dos;mozo;20-40;futbol;pizza;buenos aires
+321;femenino;casado;uno;taxista;mas_de_60;voleibol;pizza;buenos aires
+322;femenino;soltero;cero;abogado;20-40;futbol;pizza;buenos aires
+323;femenino;soltero;cero;abogado;20-40;voleibol;asado;buenos aires
+324;femenino;casado;uno;taxista;20-40;natacion;asado;buenos aires
+325;femenino;casado;uno;taxista;mas_de_60;natacion;milanesa;buenos aires
+326;masculino;casado;mas_de_dos;taxista;mas_de_60;voleibol;asado;buenos aires
+327;femenino;viudo;dos;mozo;20-40;basquetbol;sushi;buenos aires
+328;femenino;casado;mas_de_dos;panadero;mas_de_60;natacion;milanesa;buenos aires
+329;masculino;soltero;uno;taxista;40-60;futbol;milanesa;buenos aires
+330;femenino;viudo;uno;taxista;mas_de_60;natacion;milanesa;buenos aires
+331;femenino;casado;cero;taxista;mas_de_60;voleibol;pizza;cordoba
+332;femenino;viudo;uno;taxista;mas_de_60;natacion;pollo al horno;buenos aires
+333;femenino;casado;mas_de_dos;abogado;40-60;basquetbol;asado;buenos aires
+334;masculino;casado;mas_de_dos;taxista;20-40;basquetbol;pizza;buenos aires
+335;femenino;soltero;mas_de_dos;taxista;20-40;voleibol;asado;buenos aires
+336;masculino;viudo;mas_de_dos;taxista;mas_de_60;voleibol;asado;buenos aires
+337;femenino;casado;cero;mozo;20-40;voleibol;sushi;buenos aires
+338;masculino;soltero;mas_de_dos;panadero;40-60;natacion;milanesa;buenos aires
+339;masculino;casado;cero;panadero;20-40;basquetbol;pizza;buenos aires
+340;femenino;casado;cero;abogado;mas_de_60;voleibol;asado;cordoba
+341;masculino;soltero;dos;abogado;20-40;basquetbol;asado;buenos aires
+342;femenino;casado;uno;carnicero;40-60;futbol;milanesa;buenos aires
+343;femenino;soltero;uno;carnicero;20-40;basquetbol;asado;buenos aires
+344;masculino;soltero;dos;abogado;40-60;futbol;pollo al horno;buenos aires
+345;masculino;soltero;cero;taxista;20-40;basquetbol;milanesa;buenos aires
+346;masculino;casado;dos;taxista;20-40;natacion;milanesa;mendoza
+347;femenino;soltero;cero;abogado;40-60;futbol;pizza;buenos aires
+348;masculino;soltero;uno;taxista;20-40;basquetbol;milanesa;buenos aires
+349;femenino;soltero;cero;abogado;40-60;basquetbol;milanesa;buenos aires
+350;masculino;soltero;uno;carnicero;20-40;futbol;asado;buenos aires
+351;femenino;soltero;cero;mozo;40-60;futbol;asado;buenos aires
+352;masculino;soltero;dos;abogado;20-40;natacion;asado;buenos aires
+353;femenino;casado;cero;mozo;mas_de_60;futbol;milanesa;buenos aires
+354;femenino;viudo;cero;abogado;20-40;voleibol;sushi;cordoba
+355;masculino;viudo;uno;abogado;20-40;natacion;milanesa;buenos aires
+356;femenino;soltero;dos;taxista;mas_de_60;voleibol;asado;buenos aires
+357;masculino;viudo;mas_de_dos;taxista;40-60;basquetbol;asado;buenos aires
+358;femenino;casado;mas_de_dos;abogado;40-60;futbol;pollo al horno;buenos aires
+359;masculino;soltero;uno;taxista;20-40;natacion;milanesa;buenos aires
+360;masculino;casado;mas_de_dos;taxista;mas_de_60;futbol;milanesa;buenos aires
+361;femenino;soltero;uno;taxista;mas_de_60;natacion;pollo al horno;rosario
+362;masculino;casado;uno;panadero;20-40;voleibol;sushi;buenos aires
+363;masculino;casado;uno;abogado;20-40;natacion;milanesa;buenos aires
+364;masculino;casado;uno;taxista;20-40;natacion;pizza;cordoba
+365;masculino;soltero;cero;abogado;20-40;voleibol;asado;buenos aires
+366;masculino;casado;dos;panadero;20-40;futbol;asado;buenos aires
+367;femenino;viudo;cero;taxista;20-40;natacion;milanesa;buenos aires
+368;femenino;soltero;uno;abogado;mas_de_60;voleibol;asado;buenos aires
+369;femenino;soltero;dos;abogado;40-60;natacion;pollo al horno;cordoba
+370;femenino;soltero;cero;abogado;40-60;natacion;pollo al horno;buenos aires
+371;masculino;casado;mas_de_dos;carnicero;mas_de_60;natacion;asado;buenos aires
+372;masculino;soltero;mas_de_dos;abogado;40-60;voleibol;asado;buenos aires
+373;femenino;soltero;uno;abogado;mas_de_60;natacion;pizza;buenos aires
+374;femenino;soltero;dos;abogado;mas_de_60;natacion;pizza;buenos aires
+375;masculino;soltero;uno;carnicero;40-60;basquetbol;asado;buenos aires
+376;masculino;casado;cero;abogado;20-40;futbol;asado;buenos aires
+377;masculino;soltero;dos;abogado;20-40;basquetbol;pizza;buenos aires
+378;femenino;casado;uno;abogado;20-40;voleibol;milanesa;buenos aires
+379;masculino;casado;cero;taxista;mas_de_60;futbol;asado;buenos aires
+380;masculino;casado;dos;taxista;mas_de_60;natacion;asado;buenos aires
+381;masculino;casado;cero;mozo;40-60;natacion;sushi;buenos aires
+382;femenino;soltero;dos;taxista;20-40;futbol;sushi;buenos aires
+383;masculino;viudo;cero;taxista;40-60;natacion;pizza;buenos aires
+384;femenino;viudo;mas_de_dos;carnicero;mas_de_60;natacion;asado;cordoba
+385;femenino;soltero;mas_de_dos;panadero;20-40;voleibol;milanesa;buenos aires
+386;femenino;soltero;cero;taxista;20-40;futbol;asado;buenos aires
+387;masculino;casado;dos;panadero;40-60;futbol;asado;buenos aires
+388;femenino;soltero;uno;panadero;20-40;voleibol;sushi;buenos aires
+389;masculino;viudo;cero;abogado;40-60;natacion;milanesa;buenos aires
+390;femenino;casado;cero;abogado;40-60;futbol;milanesa;cordoba
+391;masculino;casado;uno;abogado;40-60;futbol;pollo al horno;buenos aires
+392;femenino;casado;dos;taxista;40-60;voleibol;milanesa;buenos aires
+393;masculino;soltero;dos;abogado;20-40;futbol;milanesa;buenos aires
+394;femenino;soltero;dos;abogado;40-60;basquetbol;asado;mendoza
+395;masculino;viudo;cero;panadero;mas_de_60;natacion;asado;buenos aires
+396;femenino;viudo;uno;panadero;40-60;futbol;pizza;buenos aires
+397;femenino;soltero;mas_de_dos;abogado;40-60;basquetbol;milanesa;buenos aires
+398;femenino;soltero;uno;abogado;20-40;basquetbol;asado;buenos aires
+399;femenino;soltero;uno;panadero;40-60;natacion;milanesa;buenos aires
+400;femenino;casado;dos;taxista;20-40;natacion;milanesa;buenos aires
+401;femenino;casado;mas_de_dos;panadero;mas_de_60;voleibol;milanesa;buenos aires
+402;femenino;soltero;uno;carnicero;20-40;voleibol;asado;buenos aires
+403;masculino;casado;uno;carnicero;mas_de_60;natacion;pizza;buenos aires
+404;masculino;casado;cero;taxista;mas_de_60;basquetbol;asado;buenos aires
+405;masculino;soltero;uno;carnicero;mas_de_60;natacion;milanesa;buenos aires
+406;masculino;casado;mas_de_dos;taxista;20-40;voleibol;asado;buenos aires
+407;femenino;casado;cero;panadero;mas_de_60;voleibol;milanesa;cordoba
+408;femenino;casado;mas_de_dos;abogado;mas_de_60;natacion;asado;buenos aires
+409;femenino;soltero;cero;taxista;20-40;natacion;milanesa;buenos aires
+410;femenino;casado;dos;abogado;20-40;voleibol;pizza;buenos aires
+411;masculino;soltero;mas_de_dos;taxista;mas_de_60;futbol;asado;buenos aires
+412;femenino;viudo;cero;mozo;40-60;basquetbol;milanesa;buenos aires
+413;masculino;soltero;uno;abogado;mas_de_60;voleibol;milanesa;buenos aires
+414;masculino;viudo;dos;taxista;20-40;natacion;pizza;buenos aires
+415;femenino;viudo;cero;carnicero;mas_de_60;natacion;milanesa;buenos aires
+416;femenino;soltero;uno;taxista;40-60;basquetbol;pizza;mendoza
+417;masculino;soltero;uno;abogado;20-40;basquetbol;sushi;buenos aires
+418;masculino;soltero;uno;taxista;mas_de_60;natacion;pizza;buenos aires
+419;masculino;casado;cero;abogado;20-40;voleibol;pizza;buenos aires
+420;femenino;soltero;uno;abogado;40-60;futbol;asado;buenos aires
+421;masculino;viudo;cero;taxista;mas_de_60;natacion;milanesa;buenos aires
+422;femenino;casado;uno;carnicero;40-60;futbol;pizza;buenos aires
+423;masculino;soltero;uno;taxista;40-60;futbol;milanesa;buenos aires
+424;femenino;soltero;uno;carnicero;40-60;voleibol;asado;buenos aires
+425;femenino;soltero;uno;panadero;20-40;voleibol;asado;buenos aires
+426;masculino;soltero;uno;abogado;40-60;futbol;pizza;buenos aires
+427;femenino;casado;dos;taxista;20-40;natacion;asado;buenos aires
+428;femenino;soltero;cero;panadero;20-40;basquetbol;asado;buenos aires
+429;femenino;soltero;dos;taxista;40-60;futbol;asado;buenos aires
+430;masculino;soltero;uno;abogado;20-40;basquetbol;milanesa;buenos aires
+431;masculino;casado;cero;taxista;20-40;natacion;asado;buenos aires
+432;femenino;casado;uno;abogado;20-40;voleibol;asado;buenos aires
+433;masculino;soltero;cero;taxista;20-40;natacion;asado;buenos aires
+434;masculino;soltero;uno;abogado;40-60;voleibol;milanesa;buenos aires
+435;masculino;casado;mas_de_dos;carnicero;40-60;futbol;asado;buenos aires
+436;masculino;casado;uno;carnicero;mas_de_60;basquetbol;asado;buenos aires
+437;femenino;viudo;dos;abogado;40-60;basquetbol;asado;mendoza
+438;masculino;casado;uno;abogado;20-40;natacion;asado;mendoza
+439;masculino;casado;cero;carnicero;40-60;futbol;asado;buenos aires
+440;femenino;viudo;mas_de_dos;carnicero;40-60;basquetbol;milanesa;buenos aires
+441;masculino;casado;mas_de_dos;abogado;40-60;basquetbol;milanesa;cordoba
+442;femenino;casado;uno;taxista;mas_de_60;futbol;pizza;cordoba
+443;femenino;casado;uno;abogado;20-40;natacion;asado;cordoba
+444;masculino;soltero;cero;taxista;mas_de_60;futbol;asado;buenos aires
+445;masculino;viudo;cero;mozo;mas_de_60;voleibol;milanesa;buenos aires
+446;femenino;soltero;cero;taxista;40-60;futbol;asado;buenos aires
+447;masculino;soltero;cero;taxista;mas_de_60;natacion;asado;buenos aires
+448;femenino;soltero;dos;carnicero;40-60;futbol;milanesa;buenos aires
+449;masculino;viudo;cero;taxista;40-60;voleibol;asado;buenos aires
+450;masculino;casado;mas_de_dos;carnicero;40-60;voleibol;asado;buenos aires
+451;femenino;soltero;dos;abogado;40-60;natacion;milanesa;buenos aires
+452;masculino;casado;dos;taxista;mas_de_60;voleibol;milanesa;buenos aires
+453;masculino;soltero;uno;carnicero;20-40;futbol;asado;buenos aires
+454;masculino;soltero;cero;abogado;mas_de_60;voleibol;milanesa;rosario
+455;masculino;soltero;uno;mozo;mas_de_60;natacion;sushi;buenos aires
+456;masculino;viudo;dos;abogado;mas_de_60;natacion;asado;rosario
+457;femenino;soltero;uno;taxista;20-40;basquetbol;pizza;buenos aires
+458;femenino;casado;mas_de_dos;taxista;20-40;natacion;pizza;buenos aires
+459;femenino;casado;dos;taxista;mas_de_60;voleibol;pizza;buenos aires
+460;masculino;soltero;dos;abogado;20-40;futbol;pizza;mendoza
+461;femenino;soltero;uno;taxista;mas_de_60;futbol;sushi;buenos aires
+462;masculino;casado;cero;abogado;mas_de_60;voleibol;milanesa;buenos aires
+463;femenino;viudo;uno;mozo;40-60;futbol;asado;buenos aires
+464;masculino;soltero;cero;taxista;20-40;futbol;milanesa;buenos aires
+465;femenino;viudo;uno;abogado;mas_de_60;natacion;pollo al horno;buenos aires
+466;masculino;viudo;uno;taxista;mas_de_60;natacion;pollo al horno;rosario
+467;masculino;soltero;cero;taxista;mas_de_60;voleibol;pizza;buenos aires
+468;masculino;casado;dos;panadero;20-40;basquetbol;asado;buenos aires
+469;femenino;soltero;dos;taxista;20-40;natacion;asado;buenos aires
+470;masculino;soltero;uno;abogado;20-40;natacion;milanesa;buenos aires
+471;femenino;viudo;dos;abogado;mas_de_60;voleibol;pizza;buenos aires
+472;femenino;soltero;dos;taxista;20-40;voleibol;sushi;buenos aires
+473;masculino;casado;mas_de_dos;taxista;40-60;futbol;asado;buenos aires
+474;femenino;casado;dos;mozo;mas_de_60;voleibol;pizza;buenos aires
+475;femenino;soltero;uno;panadero;40-60;basquetbol;pizza;buenos aires
+476;femenino;soltero;mas_de_dos;abogado;mas_de_60;futbol;asado;cordoba
+477;masculino;casado;uno;taxista;mas_de_60;natacion;asado;buenos aires
+478;femenino;viudo;dos;panadero;20-40;futbol;asado;buenos aires
+479;femenino;viudo;uno;carnicero;mas_de_60;basquetbol;milanesa;buenos aires
+480;masculino;soltero;cero;taxista;20-40;futbol;pizza;buenos aires
+481;masculino;soltero;cero;panadero;20-40;futbol;asado;buenos aires
+482;femenino;soltero;mas_de_dos;taxista;40-60;natacion;asado;buenos aires
+483;masculino;soltero;uno;abogado;mas_de_60;basquetbol;milanesa;buenos aires
+484;masculino;soltero;uno;taxista;20-40;natacion;sushi;buenos aires
+485;femenino;soltero;uno;panadero;40-60;natacion;pizza;buenos aires
+486;masculino;soltero;dos;taxista;mas_de_60;basquetbol;asado;buenos aires
+487;masculino;viudo;uno;carnicero;mas_de_60;voleibol;milanesa;buenos aires
+488;femenino;viudo;cero;abogado;20-40;voleibol;asado;buenos aires
+489;femenino;casado;dos;panadero;20-40;natacion;pollo al horno;cordoba
+490;masculino;soltero;cero;mozo;40-60;basquetbol;pollo al horno;buenos aires
+491;femenino;viudo;mas_de_dos;panadero;40-60;futbol;pollo al horno;buenos aires
+492;masculino;soltero;uno;taxista;40-60;voleibol;asado;buenos aires
+493;masculino;soltero;uno;abogado;mas_de_60;voleibol;milanesa;buenos aires
+494;femenino;soltero;uno;taxista;mas_de_60;natacion;milanesa;buenos aires
+495;masculino;soltero;cero;taxista;20-40;voleibol;asado;buenos aires
+496;femenino;soltero;cero;abogado;20-40;voleibol;asado;buenos aires
+497;masculino;soltero;cero;abogado;40-60;voleibol;sushi;buenos aires
+498;masculino;soltero;uno;panadero;40-60;natacion;asado;buenos aires
+499;femenino;soltero;dos;abogado;20-40;basquetbol;asado;buenos aires
+500;femenino;casado;cero;taxista;40-60;voleibol;pizza;buenos aires
+501;femenino;soltero;mas_de_dos;abogado;40-60;basquetbol;milanesa;rosario
+502;masculino;soltero;cero;mozo;40-60;futbol;pizza;buenos aires
+503;masculino;casado;dos;panadero;20-40;natacion;asado;buenos aires
+504;masculino;casado;mas_de_dos;carnicero;20-40;voleibol;milanesa;mendoza
+505;masculino;soltero;uno;panadero;20-40;futbol;milanesa;buenos aires
+506;femenino;casado;uno;abogado;20-40;futbol;sushi;buenos aires
+507;femenino;viudo;cero;taxista;20-40;basquetbol;sushi;buenos aires
+508;femenino;soltero;uno;panadero;20-40;futbol;asado;cordoba
+509;masculino;soltero;mas_de_dos;mozo;20-40;futbol;sushi;buenos aires
+510;femenino;soltero;dos;carnicero;mas_de_60;natacion;pollo al horno;buenos aires
+511;masculino;casado;cero;abogado;40-60;basquetbol;sushi;buenos aires
+512;femenino;casado;dos;taxista;40-60;voleibol;asado;buenos aires
+513;masculino;casado;mas_de_dos;abogado;mas_de_60;futbol;pizza;buenos aires
+514;femenino;viudo;uno;panadero;20-40;voleibol;asado;buenos aires
+515;femenino;soltero;dos;mozo;20-40;futbol;milanesa;buenos aires
+516;masculino;casado;dos;panadero;mas_de_60;basquetbol;pollo al horno;buenos aires
+517;femenino;casado;cero;taxista;20-40;futbol;pizza;buenos aires
+518;femenino;soltero;cero;abogado;20-40;natacion;asado;buenos aires
+519;femenino;casado;uno;panadero;mas_de_60;futbol;milanesa;buenos aires
+520;masculino;soltero;dos;mozo;20-40;voleibol;milanesa;buenos aires
+521;femenino;soltero;uno;abogado;20-40;voleibol;pizza;buenos aires
+522;femenino;casado;cero;abogado;40-60;voleibol;milanesa;buenos aires
+523;femenino;soltero;dos;mozo;20-40;voleibol;asado;buenos aires
+524;femenino;casado;cero;abogado;mas_de_60;voleibol;asado;cordoba
+525;masculino;soltero;mas_de_dos;taxista;20-40;basquetbol;sushi;buenos aires
+526;masculino;soltero;mas_de_dos;carnicero;20-40;futbol;milanesa;buenos aires
+527;masculino;casado;uno;panadero;mas_de_60;voleibol;sushi;buenos aires
+528;femenino;soltero;cero;panadero;20-40;natacion;sushi;buenos aires
+529;femenino;casado;uno;taxista;40-60;voleibol;milanesa;buenos aires
+530;femenino;casado;uno;taxista;40-60;voleibol;pizza;buenos aires
+531;femenino;viudo;dos;taxista;mas_de_60;basquetbol;asado;buenos aires
+532;femenino;casado;uno;taxista;40-60;futbol;milanesa;buenos aires
+533;masculino;viudo;dos;mozo;40-60;natacion;asado;buenos aires
+534;femenino;soltero;uno;taxista;mas_de_60;natacion;pizza;buenos aires
+535;masculino;casado;uno;carnicero;mas_de_60;futbol;pollo al horno;mendoza
+536;masculino;soltero;dos;taxista;20-40;voleibol;milanesa;buenos aires
+537;masculino;casado;uno;mozo;mas_de_60;natacion;milanesa;rosario
+538;femenino;casado;mas_de_dos;mozo;20-40;basquetbol;sushi;rosario
+539;femenino;soltero;mas_de_dos;abogado;40-60;voleibol;asado;buenos aires
+540;femenino;viudo;uno;carnicero;20-40;voleibol;milanesa;buenos aires
+541;femenino;casado;dos;abogado;20-40;futbol;asado;buenos aires
+542;masculino;soltero;dos;panadero;mas_de_60;futbol;pizza;buenos aires
+543;masculino;soltero;cero;taxista;20-40;natacion;milanesa;buenos aires
+544;femenino;soltero;uno;abogado;40-60;natacion;pizza;buenos aires
+545;masculino;casado;uno;abogado;40-60;basquetbol;milanesa;buenos aires
+546;masculino;viudo;dos;mozo;40-60;basquetbol;asado;buenos aires
+547;masculino;casado;cero;taxista;40-60;futbol;milanesa;buenos aires
+548;masculino;casado;cero;taxista;40-60;natacion;pizza;buenos aires
+549;femenino;viudo;mas_de_dos;panadero;mas_de_60;natacion;pollo al horno;buenos aires
+550;masculino;viudo;cero;taxista;mas_de_60;futbol;asado;buenos aires
+551;masculino;casado;dos;taxista;mas_de_60;voleibol;asado;buenos aires
+552;femenino;soltero;uno;abogado;20-40;natacion;pizza;buenos aires
+553;femenino;soltero;uno;panadero;mas_de_60;natacion;asado;buenos aires
+554;femenino;casado;cero;panadero;mas_de_60;basquetbol;asado;cordoba
+555;femenino;soltero;mas_de_dos;panadero;mas_de_60;basquetbol;sushi;buenos aires
+556;masculino;casado;cero;taxista;mas_de_60;futbol;asado;buenos aires
+557;femenino;soltero;dos;taxista;20-40;futbol;sushi;buenos aires
+558;femenino;soltero;dos;mozo;20-40;basquetbol;pizza;buenos aires
+559;femenino;soltero;uno;abogado;20-40;natacion;asado;buenos aires
+560;masculino;casado;cero;panadero;40-60;natacion;sushi;buenos aires
+561;masculino;soltero;uno;mozo;40-60;futbol;sushi;buenos aires
+562;femenino;soltero;cero;taxista;mas_de_60;futbol;pizza;buenos aires
+563;masculino;soltero;uno;abogado;20-40;natacion;pizza;buenos aires
+564;masculino;soltero;uno;mozo;mas_de_60;voleibol;milanesa;buenos aires
+565;femenino;viudo;cero;abogado;mas_de_60;natacion;asado;buenos aires
+566;femenino;casado;dos;taxista;20-40;natacion;milanesa;buenos aires
+567;femenino;viudo;cero;mozo;40-60;voleibol;asado;buenos aires
+568;masculino;casado;uno;mozo;40-60;futbol;pizza;buenos aires
+569;femenino;soltero;dos;abogado;40-60;voleibol;asado;cordoba
+570;masculino;casado;mas_de_dos;taxista;mas_de_60;natacion;pollo al horno;buenos aires
+571;femenino;soltero;cero;taxista;20-40;voleibol;milanesa;buenos aires
+572;masculino;casado;mas_de_dos;abogado;mas_de_60;basquetbol;milanesa;buenos aires
+573;femenino;casado;dos;panadero;mas_de_60;voleibol;pizza;rosario
+574;femenino;soltero;cero;abogado;mas_de_60;natacion;asado;buenos aires
+575;femenino;casado;uno;abogado;40-60;basquetbol;asado;buenos aires
+576;femenino;soltero;uno;abogado;20-40;basquetbol;milanesa;buenos aires
+577;femenino;soltero;cero;taxista;20-40;natacion;asado;buenos aires
+578;masculino;soltero;uno;panadero;mas_de_60;basquetbol;pollo al horno;buenos aires
+579;femenino;casado;mas_de_dos;mozo;40-60;natacion;milanesa;buenos aires
+580;masculino;soltero;cero;taxista;40-60;voleibol;sushi;buenos aires
+581;femenino;soltero;dos;abogado;40-60;futbol;asado;buenos aires
+582;femenino;soltero;cero;carnicero;20-40;basquetbol;pollo al horno;buenos aires
+583;masculino;casado;cero;panadero;mas_de_60;natacion;asado;buenos aires
+584;masculino;casado;uno;taxista;mas_de_60;voleibol;sushi;buenos aires
+585;masculino;casado;cero;abogado;mas_de_60;voleibol;sushi;buenos aires
+586;masculino;casado;mas_de_dos;abogado;20-40;futbol;pizza;buenos aires
+587;femenino;soltero;uno;carnicero;40-60;futbol;milanesa;buenos aires
+588;masculino;viudo;cero;taxista;mas_de_60;natacion;pizza;buenos aires
+589;masculino;soltero;mas_de_dos;carnicero;mas_de_60;futbol;pizza;buenos aires
+590;masculino;casado;cero;taxista;40-60;basquetbol;milanesa;buenos aires
+591;masculino;casado;cero;abogado;40-60;voleibol;asado;buenos aires
+592;femenino;soltero;uno;abogado;40-60;voleibol;milanesa;buenos aires
+593;femenino;viudo;dos;taxista;mas_de_60;voleibol;milanesa;buenos aires
+594;femenino;casado;uno;taxista;mas_de_60;natacion;asado;buenos aires
+595;masculino;soltero;uno;abogado;40-60;natacion;pizza;buenos aires
+596;femenino;soltero;mas_de_dos;abogado;40-60;voleibol;milanesa;buenos aires
+597;masculino;soltero;cero;taxista;40-60;natacion;pizza;buenos aires
+598;masculino;soltero;uno;taxista;20-40;futbol;milanesa;buenos aires
+599;femenino;casado;dos;taxista;20-40;basquetbol;asado;buenos aires
+600;masculino;viudo;uno;mozo;mas_de_60;natacion;milanesa;buenos aires
+601;femenino;soltero;uno;taxista;40-60;futbol;pizza;buenos aires
+602;masculino;soltero;cero;abogado;mas_de_60;futbol;pollo al horno;buenos aires
+603;femenino;soltero;dos;mozo;mas_de_60;futbol;pizza;buenos aires
+604;masculino;soltero;mas_de_dos;abogado;20-40;futbol;asado;buenos aires
+605;femenino;soltero;dos;panadero;40-60;voleibol;pizza;buenos aires
+606;femenino;casado;mas_de_dos;taxista;20-40;natacion;pollo al horno;buenos aires
+607;femenino;soltero;mas_de_dos;carnicero;20-40;natacion;asado;buenos aires
+608;femenino;casado;mas_de_dos;carnicero;mas_de_60;basquetbol;asado;buenos aires
+609;masculino;casado;uno;taxista;20-40;futbol;asado;buenos aires
+610;femenino;casado;uno;taxista;20-40;futbol;sushi;buenos aires
+611;femenino;viudo;cero;taxista;mas_de_60;natacion;asado;buenos aires
+612;femenino;soltero;mas_de_dos;abogado;20-40;natacion;asado;buenos aires
+613;femenino;soltero;dos;abogado;40-60;voleibol;asado;cordoba
+614;femenino;soltero;uno;mozo;40-60;natacion;milanesa;buenos aires
+615;femenino;casado;dos;panadero;40-60;futbol;asado;buenos aires
+616;femenino;viudo;uno;abogado;40-60;voleibol;milanesa;buenos aires
+617;masculino;soltero;dos;abogado;40-60;natacion;pizza;buenos aires
+618;masculino;viudo;cero;abogado;20-40;futbol;asado;buenos aires
+619;femenino;viudo;uno;panadero;20-40;voleibol;pollo al horno;buenos aires
+620;femenino;casado;uno;abogado;40-60;futbol;sushi;buenos aires
+621;masculino;soltero;mas_de_dos;carnicero;40-60;basquetbol;milanesa;buenos aires
+622;masculino;soltero;mas_de_dos;mozo;20-40;basquetbol;asado;buenos aires
+623;masculino;soltero;cero;taxista;mas_de_60;natacion;pizza;buenos aires
+624;masculino;soltero;mas_de_dos;taxista;40-60;basquetbol;milanesa;buenos aires
+625;masculino;soltero;uno;carnicero;40-60;voleibol;asado;buenos aires
+626;masculino;viudo;uno;taxista;40-60;basquetbol;asado;buenos aires
+627;femenino;soltero;dos;taxista;20-40;voleibol;pollo al horno;buenos aires
+628;femenino;soltero;uno;taxista;20-40;futbol;pizza;buenos aires
+629;femenino;casado;dos;taxista;20-40;basquetbol;pizza;buenos aires
+630;masculino;casado;dos;panadero;mas_de_60;basquetbol;asado;buenos aires
+631;masculino;soltero;uno;mozo;40-60;futbol;pizza;buenos aires
+632;femenino;viudo;dos;abogado;20-40;basquetbol;pizza;buenos aires
+633;masculino;soltero;dos;abogado;mas_de_60;voleibol;asado;buenos aires
+634;masculino;casado;cero;taxista;20-40;futbol;sushi;buenos aires
+635;femenino;casado;cero;taxista;mas_de_60;natacion;pizza;buenos aires
+636;masculino;casado;uno;carnicero;40-60;basquetbol;pizza;buenos aires
+637;femenino;viudo;cero;abogado;mas_de_60;basquetbol;milanesa;buenos aires
+638;femenino;soltero;mas_de_dos;abogado;mas_de_60;voleibol;milanesa;buenos aires
+639;femenino;soltero;uno;taxista;20-40;natacion;asado;buenos aires
+640;masculino;casado;cero;carnicero;20-40;natacion;asado;buenos aires
+641;femenino;soltero;cero;taxista;20-40;natacion;milanesa;buenos aires
+642;masculino;soltero;mas_de_dos;taxista;40-60;futbol;asado;buenos aires
+643;femenino;casado;dos;carnicero;20-40;basquetbol;asado;buenos aires
+644;femenino;casado;cero;taxista;20-40;futbol;milanesa;cordoba
+645;masculino;soltero;cero;taxista;mas_de_60;voleibol;pollo al horno;buenos aires
+646;masculino;soltero;cero;abogado;mas_de_60;futbol;milanesa;buenos aires
+647;femenino;viudo;uno;taxista;mas_de_60;natacion;pizza;buenos aires
+648;masculino;soltero;uno;panadero;mas_de_60;voleibol;asado;buenos aires
+649;masculino;soltero;uno;taxista;20-40;voleibol;sushi;buenos aires
+650;masculino;casado;uno;carnicero;20-40;voleibol;milanesa;buenos aires
+651;femenino;viudo;dos;carnicero;40-60;natacion;pizza;buenos aires
+652;femenino;soltero;dos;panadero;mas_de_60;voleibol;asado;buenos aires
+653;femenino;casado;uno;abogado;40-60;voleibol;pizza;buenos aires
+654;masculino;viudo;cero;taxista;40-60;natacion;pizza;buenos aires
+655;masculino;casado;uno;mozo;mas_de_60;futbol;asado;buenos aires
+656;femenino;viudo;cero;mozo;mas_de_60;voleibol;asado;buenos aires
+657;masculino;soltero;dos;panadero;mas_de_60;natacion;milanesa;buenos aires
+658;masculino;soltero;dos;abogado;40-60;natacion;asado;buenos aires
+659;femenino;casado;uno;carnicero;mas_de_60;basquetbol;milanesa;cordoba
+660;femenino;casado;cero;abogado;20-40;voleibol;pizza;buenos aires
+661;femenino;soltero;uno;abogado;mas_de_60;voleibol;pizza;buenos aires
+662;femenino;soltero;cero;taxista;20-40;basquetbol;asado;buenos aires
+663;masculino;soltero;cero;carnicero;20-40;natacion;milanesa;buenos aires
+664;femenino;casado;dos;taxista;20-40;basquetbol;asado;buenos aires
+665;femenino;viudo;dos;carnicero;20-40;basquetbol;asado;buenos aires
+666;masculino;casado;uno;abogado;mas_de_60;natacion;milanesa;buenos aires
+667;masculino;soltero;uno;taxista;40-60;natacion;pollo al horno;buenos aires
+668;femenino;casado;dos;carnicero;40-60;basquetbol;milanesa;buenos aires
+669;masculino;soltero;uno;taxista;20-40;natacion;milanesa;buenos aires
+670;masculino;casado;cero;taxista;mas_de_60;natacion;pizza;buenos aires
+671;femenino;soltero;uno;taxista;40-60;natacion;milanesa;buenos aires
+672;femenino;soltero;cero;abogado;40-60;voleibol;milanesa;buenos aires
+673;masculino;soltero;dos;mozo;40-60;basquetbol;asado;buenos aires
+674;femenino;casado;cero;panadero;mas_de_60;voleibol;asado;buenos aires
+675;femenino;soltero;dos;taxista;40-60;voleibol;asado;buenos aires
+676;masculino;soltero;cero;taxista;mas_de_60;natacion;pollo al horno;buenos aires
+677;femenino;soltero;uno;abogado;20-40;natacion;asado;buenos aires
+678;masculino;soltero;uno;abogado;20-40;voleibol;milanesa;buenos aires
+679;femenino;viudo;uno;mozo;40-60;futbol;asado;buenos aires
+680;masculino;casado;cero;panadero;40-60;natacion;pizza;buenos aires
+681;femenino;soltero;mas_de_dos;taxista;20-40;futbol;milanesa;buenos aires
+682;masculino;soltero;dos;abogado;mas_de_60;voleibol;asado;cordoba
+683;masculino;casado;uno;mozo;20-40;natacion;pizza;buenos aires
+684;femenino;soltero;mas_de_dos;abogado;40-60;voleibol;milanesa;buenos aires
+685;femenino;soltero;cero;taxista;mas_de_60;futbol;milanesa;buenos aires
+686;masculino;soltero;cero;carnicero;20-40;futbol;asado;buenos aires
+687;femenino;soltero;dos;abogado;20-40;basquetbol;pizza;buenos aires
+688;femenino;soltero;mas_de_dos;taxista;mas_de_60;natacion;pizza;cordoba
+689;femenino;casado;dos;carnicero;mas_de_60;futbol;asado;buenos aires
+690;femenino;soltero;uno;panadero;20-40;voleibol;milanesa;buenos aires
+691;femenino;soltero;cero;panadero;20-40;natacion;asado;buenos aires
+692;masculino;viudo;uno;taxista;20-40;natacion;milanesa;buenos aires
+693;masculino;casado;dos;taxista;mas_de_60;basquetbol;asado;buenos aires
+694;masculino;soltero;uno;taxista;40-60;basquetbol;milanesa;buenos aires
+695;femenino;soltero;cero;carnicero;20-40;voleibol;asado;buenos aires
+696;masculino;casado;uno;carnicero;mas_de_60;voleibol;asado;buenos aires
+697;masculino;casado;cero;mozo;mas_de_60;basquetbol;sushi;buenos aires
+698;femenino;casado;cero;abogado;20-40;futbol;asado;buenos aires
+699;femenino;casado;cero;taxista;mas_de_60;voleibol;pizza;buenos aires
+700;masculino;casado;mas_de_dos;carnicero;20-40;natacion;milanesa;buenos aires
+701;masculino;soltero;uno;taxista;40-60;basquetbol;pizza;buenos aires
+702;femenino;soltero;uno;taxista;mas_de_60;basquetbol;asado;buenos aires
+703;masculino;soltero;dos;panadero;mas_de_60;futbol;asado;buenos aires
+704;masculino;soltero;uno;panadero;20-40;voleibol;milanesa;buenos aires
+705;masculino;soltero;dos;taxista;20-40;futbol;milanesa;buenos aires
+706;masculino;soltero;cero;abogado;20-40;voleibol;pizza;buenos aires
+707;masculino;soltero;cero;taxista;20-40;basquetbol;pizza;buenos aires
+708;masculino;viudo;dos;taxista;40-60;natacion;pizza;buenos aires
+709;femenino;casado;cero;mozo;40-60;voleibol;asado;rosario
+710;masculino;viudo;mas_de_dos;mozo;mas_de_60;voleibol;milanesa;buenos aires
+711;femenino;casado;mas_de_dos;taxista;40-60;natacion;pizza;cordoba
+712;femenino;soltero;mas_de_dos;mozo;20-40;voleibol;milanesa;buenos aires
+713;masculino;soltero;uno;taxista;40-60;futbol;milanesa;buenos aires
+714;femenino;casado;uno;panadero;20-40;futbol;asado;buenos aires
+715;femenino;viudo;dos;abogado;40-60;natacion;pollo al horno;buenos aires
+716;femenino;casado;dos;abogado;40-60;natacion;asado;buenos aires
+717;masculino;soltero;cero;panadero;40-60;voleibol;asado;buenos aires
+718;masculino;soltero;uno;panadero;20-40;natacion;asado;buenos aires
+719;masculino;viudo;dos;carnicero;mas_de_60;voleibol;asado;buenos aires
+720;femenino;soltero;mas_de_dos;taxista;20-40;futbol;milanesa;buenos aires
+721;femenino;casado;dos;abogado;20-40;voleibol;asado;buenos aires
+722;femenino;casado;uno;abogado;mas_de_60;natacion;pizza;rosario
+723;femenino;casado;uno;mozo;20-40;natacion;pollo al horno;buenos aires
+724;femenino;soltero;uno;taxista;40-60;voleibol;milanesa;buenos aires
+725;masculino;casado;cero;taxista;mas_de_60;natacion;asado;buenos aires
+726;femenino;viudo;dos;taxista;40-60;natacion;asado;cordoba
+727;femenino;casado;cero;abogado;20-40;voleibol;milanesa;buenos aires
+728;femenino;soltero;cero;taxista;20-40;futbol;asado;buenos aires
+729;masculino;soltero;uno;panadero;40-60;natacion;pizza;buenos aires
+730;masculino;soltero;dos;mozo;20-40;natacion;pizza;mendoza
+731;femenino;soltero;uno;abogado;20-40;futbol;asado;buenos aires
+732;femenino;casado;cero;abogado;mas_de_60;futbol;milanesa;buenos aires
+733;masculino;soltero;dos;taxista;40-60;natacion;sushi;buenos aires
+734;masculino;casado;cero;abogado;mas_de_60;voleibol;asado;buenos aires
+735;masculino;soltero;cero;abogado;mas_de_60;voleibol;asado;buenos aires
+736;masculino;viudo;cero;taxista;mas_de_60;futbol;milanesa;buenos aires
+737;femenino;casado;uno;abogado;20-40;basquetbol;pollo al horno;buenos aires
+738;masculino;casado;dos;abogado;40-60;basquetbol;asado;buenos aires
+739;masculino;casado;uno;abogado;40-60;futbol;asado;buenos aires
+740;masculino;soltero;dos;mozo;20-40;futbol;asado;buenos aires
+741;masculino;soltero;uno;abogado;20-40;voleibol;pollo al horno;buenos aires
+742;femenino;viudo;mas_de_dos;abogado;40-60;natacion;milanesa;buenos aires
+743;femenino;casado;cero;mozo;mas_de_60;voleibol;milanesa;buenos aires
+744;masculino;casado;dos;abogado;20-40;natacion;milanesa;rosario
+745;masculino;soltero;uno;taxista;mas_de_60;futbol;milanesa;buenos aires
+746;masculino;soltero;dos;taxista;40-60;voleibol;pizza;buenos aires
+747;masculino;viudo;uno;taxista;40-60;natacion;asado;buenos aires
+748;masculino;viudo;uno;mozo;40-60;futbol;sushi;buenos aires
+749;femenino;casado;dos;taxista;mas_de_60;futbol;milanesa;buenos aires
+750;femenino;casado;cero;carnicero;40-60;futbol;sushi;cordoba
+751;femenino;casado;uno;panadero;20-40;futbol;pizza;buenos aires
+752;femenino;soltero;dos;abogado;20-40;voleibol;sushi;buenos aires
+753;femenino;soltero;uno;abogado;20-40;voleibol;pizza;buenos aires
+754;femenino;soltero;cero;abogado;mas_de_60;natacion;sushi;buenos aires
+755;femenino;soltero;uno;panadero;40-60;natacion;asado;mendoza
+756;femenino;viudo;dos;taxista;40-60;futbol;asado;buenos aires
+757;masculino;soltero;uno;taxista;20-40;futbol;sushi;buenos aires
+758;femenino;soltero;uno;abogado;20-40;voleibol;sushi;buenos aires
+759;masculino;casado;cero;panadero;20-40;voleibol;asado;buenos aires
+760;masculino;casado;dos;abogado;mas_de_60;natacion;asado;cordoba
+761;masculino;casado;cero;mozo;20-40;basquetbol;sushi;buenos aires
+762;femenino;soltero;cero;taxista;40-60;voleibol;pollo al horno;buenos aires
+763;masculino;casado;cero;carnicero;20-40;voleibol;milanesa;buenos aires
+764;femenino;soltero;mas_de_dos;panadero;40-60;natacion;milanesa;buenos aires
+765;masculino;soltero;uno;abogado;20-40;voleibol;asado;buenos aires
+766;masculino;casado;dos;panadero;20-40;futbol;milanesa;buenos aires
+767;femenino;soltero;uno;taxista;mas_de_60;futbol;milanesa;buenos aires
+768;femenino;casado;uno;mozo;40-60;natacion;milanesa;buenos aires
+769;masculino;casado;dos;carnicero;40-60;voleibol;sushi;buenos aires
+770;femenino;soltero;uno;taxista;20-40;natacion;asado;buenos aires
+771;femenino;casado;uno;taxista;mas_de_60;basquetbol;milanesa;buenos aires
+772;femenino;soltero;cero;taxista;20-40;natacion;asado;buenos aires
+773;masculino;soltero;dos;abogado;mas_de_60;basquetbol;asado;cordoba
+774;masculino;casado;mas_de_dos;panadero;40-60;voleibol;asado;rosario
+775;masculino;casado;dos;abogado;40-60;voleibol;pollo al horno;rosario
+776;femenino;viudo;cero;carnicero;20-40;natacion;pizza;buenos aires
+777;femenino;casado;dos;mozo;20-40;natacion;asado;cordoba
+778;masculino;casado;dos;taxista;40-60;voleibol;asado;buenos aires
+779;femenino;soltero;dos;taxista;mas_de_60;voleibol;pollo al horno;buenos aires
+780;femenino;soltero;uno;panadero;mas_de_60;basquetbol;milanesa;buenos aires
+781;femenino;soltero;cero;taxista;40-60;basquetbol;milanesa;buenos aires
+782;femenino;viudo;cero;carnicero;20-40;natacion;pizza;buenos aires
+783;femenino;casado;cero;abogado;20-40;basquetbol;milanesa;buenos aires
+784;femenino;casado;cero;abogado;mas_de_60;futbol;sushi;buenos aires
+785;masculino;casado;dos;taxista;mas_de_60;futbol;sushi;buenos aires
+786;masculino;soltero;mas_de_dos;abogado;40-60;futbol;milanesa;buenos aires
+787;femenino;casado;cero;taxista;40-60;futbol;asado;buenos aires
+788;femenino;viudo;cero;taxista;40-60;basquetbol;milanesa;buenos aires
+789;masculino;casado;dos;mozo;20-40;natacion;sushi;buenos aires
+790;masculino;viudo;dos;mozo;20-40;basquetbol;milanesa;buenos aires
+791;masculino;casado;uno;abogado;20-40;natacion;pollo al horno;buenos aires
+792;femenino;soltero;uno;taxista;mas_de_60;futbol;milanesa;cordoba
+793;masculino;viudo;dos;abogado;mas_de_60;basquetbol;pizza;buenos aires
+794;femenino;soltero;mas_de_dos;taxista;20-40;natacion;milanesa;buenos aires
+795;femenino;viudo;uno;taxista;20-40;futbol;asado;buenos aires
+796;femenino;viudo;uno;abogado;40-60;natacion;milanesa;rosario
+797;femenino;soltero;mas_de_dos;panadero;40-60;natacion;sushi;buenos aires
+798;femenino;casado;uno;abogado;20-40;futbol;asado;buenos aires
+799;femenino;viudo;dos;abogado;mas_de_60;voleibol;asado;buenos aires
+800;femenino;viudo;cero;panadero;mas_de_60;natacion;milanesa;buenos aires
+801;masculino;casado;cero;panadero;mas_de_60;natacion;asado;buenos aires
+802;masculino;soltero;cero;mozo;20-40;voleibol;pizza;buenos aires
+803;femenino;soltero;dos;abogado;40-60;natacion;pollo al horno;mendoza
+804;masculino;casado;uno;taxista;40-60;futbol;milanesa;buenos aires
+805;femenino;soltero;cero;mozo;40-60;futbol;milanesa;buenos aires
+806;masculino;soltero;mas_de_dos;panadero;40-60;futbol;asado;buenos aires
+807;masculino;soltero;cero;mozo;20-40;futbol;milanesa;buenos aires
+808;femenino;soltero;uno;taxista;40-60;futbol;asado;buenos aires
+809;masculino;viudo;cero;mozo;20-40;futbol;milanesa;buenos aires
+810;masculino;casado;mas_de_dos;carnicero;20-40;futbol;sushi;buenos aires
+811;masculino;soltero;dos;taxista;40-60;natacion;milanesa;buenos aires
+812;masculino;viudo;dos;taxista;20-40;basquetbol;asado;buenos aires
+813;femenino;soltero;uno;carnicero;40-60;natacion;milanesa;buenos aires
+814;masculino;casado;uno;abogado;mas_de_60;futbol;pollo al horno;buenos aires
+815;masculino;soltero;cero;panadero;20-40;natacion;asado;buenos aires
+816;femenino;soltero;mas_de_dos;taxista;40-60;voleibol;asado;buenos aires
+817;femenino;soltero;mas_de_dos;panadero;40-60;basquetbol;pizza;buenos aires
+818;masculino;casado;cero;abogado;mas_de_60;futbol;asado;buenos aires
+819;femenino;soltero;uno;taxista;20-40;basquetbol;milanesa;buenos aires
+820;masculino;soltero;uno;panadero;mas_de_60;natacion;milanesa;buenos aires
+821;masculino;soltero;dos;carnicero;40-60;natacion;asado;buenos aires
+822;masculino;casado;cero;panadero;mas_de_60;voleibol;milanesa;buenos aires
+823;masculino;soltero;mas_de_dos;taxista;40-60;voleibol;sushi;buenos aires
+824;masculino;casado;uno;taxista;40-60;futbol;milanesa;buenos aires
+825;femenino;casado;uno;abogado;20-40;futbol;milanesa;buenos aires
+826;femenino;soltero;dos;carnicero;40-60;futbol;milanesa;buenos aires
+827;masculino;soltero;uno;carnicero;20-40;futbol;milanesa;buenos aires
+828;masculino;soltero;dos;panadero;20-40;voleibol;asado;buenos aires
+829;femenino;soltero;uno;carnicero;mas_de_60;voleibol;milanesa;buenos aires
+830;femenino;viudo;uno;panadero;40-60;voleibol;asado;buenos aires
+831;masculino;casado;uno;abogado;mas_de_60;voleibol;sushi;buenos aires
+832;femenino;soltero;uno;carnicero;mas_de_60;natacion;milanesa;cordoba
+833;masculino;casado;mas_de_dos;panadero;40-60;futbol;asado;buenos aires
+834;masculino;soltero;uno;taxista;20-40;basquetbol;milanesa;buenos aires
+835;femenino;viudo;cero;abogado;20-40;natacion;pizza;buenos aires
+836;masculino;soltero;uno;panadero;40-60;futbol;milanesa;buenos aires
+837;femenino;casado;dos;carnicero;mas_de_60;basquetbol;asado;cordoba
+838;masculino;soltero;dos;carnicero;mas_de_60;natacion;asado;buenos aires
+839;masculino;casado;dos;taxista;40-60;natacion;pizza;buenos aires
+840;femenino;casado;cero;abogado;20-40;voleibol;sushi;buenos aires
+841;femenino;casado;cero;carnicero;40-60;voleibol;sushi;buenos aires
+842;femenino;soltero;cero;mozo;40-60;futbol;pizza;cordoba
+843;femenino;soltero;uno;carnicero;20-40;futbol;milanesa;buenos aires
+844;femenino;casado;uno;abogado;mas_de_60;futbol;milanesa;buenos aires
+845;femenino;viudo;cero;panadero;mas_de_60;futbol;sushi;buenos aires
+846;femenino;casado;mas_de_dos;abogado;20-40;natacion;asado;buenos aires
+847;masculino;soltero;cero;abogado;40-60;basquetbol;sushi;buenos aires
+848;masculino;soltero;cero;abogado;20-40;natacion;pizza;buenos aires
+849;masculino;soltero;uno;panadero;20-40;natacion;milanesa;buenos aires
+850;masculino;viudo;dos;abogado;20-40;futbol;pizza;buenos aires
+851;femenino;casado;mas_de_dos;abogado;40-60;futbol;milanesa;buenos aires
+852;femenino;soltero;cero;mozo;40-60;basquetbol;asado;buenos aires
+853;masculino;casado;mas_de_dos;taxista;40-60;natacion;pollo al horno;mendoza
+854;femenino;soltero;dos;taxista;mas_de_60;natacion;pizza;buenos aires
+855;masculino;soltero;uno;mozo;mas_de_60;voleibol;pollo al horno;buenos aires
+856;femenino;soltero;cero;panadero;mas_de_60;voleibol;milanesa;buenos aires
+857;femenino;casado;uno;carnicero;20-40;voleibol;milanesa;buenos aires
+858;masculino;soltero;cero;mozo;40-60;basquetbol;asado;buenos aires
+859;masculino;soltero;cero;abogado;mas_de_60;natacion;asado;buenos aires
+860;masculino;soltero;mas_de_dos;taxista;40-60;natacion;milanesa;buenos aires
+861;masculino;casado;uno;panadero;mas_de_60;futbol;pizza;buenos aires
+862;femenino;casado;uno;taxista;20-40;voleibol;sushi;buenos aires
+863;masculino;soltero;uno;taxista;40-60;natacion;pollo al horno;buenos aires
+864;femenino;soltero;cero;taxista;20-40;basquetbol;asado;buenos aires
+865;masculino;viudo;cero;taxista;20-40;natacion;asado;buenos aires
+866;femenino;soltero;cero;abogado;20-40;futbol;asado;buenos aires
+867;femenino;casado;dos;panadero;40-60;futbol;asado;buenos aires
+868;femenino;casado;uno;taxista;mas_de_60;voleibol;milanesa;buenos aires
+869;femenino;soltero;dos;taxista;20-40;natacion;pizza;buenos aires
+870;masculino;soltero;cero;carnicero;40-60;voleibol;asado;buenos aires
+871;masculino;soltero;cero;abogado;20-40;voleibol;asado;buenos aires
+872;femenino;soltero;dos;taxista;20-40;basquetbol;milanesa;buenos aires
+873;femenino;soltero;cero;carnicero;40-60;natacion;sushi;buenos aires
+874;masculino;casado;uno;taxista;mas_de_60;voleibol;pollo al horno;buenos aires
+875;masculino;casado;cero;taxista;mas_de_60;basquetbol;pizza;buenos aires
+876;masculino;soltero;mas_de_dos;abogado;20-40;futbol;milanesa;buenos aires
+877;masculino;casado;mas_de_dos;carnicero;mas_de_60;voleibol;sushi;buenos aires
+878;femenino;casado;cero;abogado;20-40;voleibol;sushi;buenos aires
+879;femenino;soltero;mas_de_dos;carnicero;40-60;voleibol;asado;buenos aires
+880;femenino;casado;uno;carnicero;mas_de_60;basquetbol;asado;buenos aires
+881;masculino;soltero;uno;carnicero;mas_de_60;voleibol;milanesa;buenos aires
+882;femenino;soltero;uno;abogado;mas_de_60;voleibol;milanesa;buenos aires
+883;femenino;soltero;cero;taxista;20-40;futbol;pizza;rosario
+884;masculino;viudo;cero;taxista;mas_de_60;futbol;milanesa;buenos aires
+885;masculino;casado;mas_de_dos;panadero;40-60;voleibol;pizza;buenos aires
+886;femenino;casado;uno;panadero;40-60;voleibol;milanesa;mendoza
+887;femenino;soltero;uno;panadero;mas_de_60;basquetbol;asado;buenos aires
+888;masculino;viudo;dos;taxista;20-40;futbol;pizza;buenos aires
+889;femenino;soltero;mas_de_dos;mozo;40-60;voleibol;asado;buenos aires
+890;masculino;soltero;cero;panadero;20-40;basquetbol;milanesa;buenos aires
+891;femenino;viudo;mas_de_dos;carnicero;40-60;basquetbol;asado;buenos aires
+892;femenino;soltero;dos;taxista;40-60;basquetbol;pizza;buenos aires
+893;femenino;soltero;dos;mozo;40-60;basquetbol;asado;buenos aires
+894;masculino;soltero;cero;mozo;mas_de_60;basquetbol;milanesa;buenos aires
+895;masculino;viudo;dos;abogado;40-60;voleibol;asado;buenos aires
+896;femenino;soltero;mas_de_dos;abogado;40-60;natacion;asado;cordoba
+897;masculino;casado;dos;abogado;40-60;futbol;pizza;buenos aires
+898;femenino;viudo;mas_de_dos;taxista;20-40;basquetbol;asado;buenos aires
+899;femenino;soltero;cero;taxista;20-40;natacion;milanesa;buenos aires
+900;femenino;casado;cero;taxista;20-40;futbol;pizza;buenos aires
+901;masculino;soltero;cero;mozo;mas_de_60;voleibol;asado;buenos aires
+902;femenino;casado;cero;mozo;20-40;futbol;asado;buenos aires
+903;femenino;soltero;dos;carnicero;20-40;voleibol;milanesa;rosario
+904;masculino;soltero;cero;abogado;40-60;natacion;asado;mendoza
+905;femenino;soltero;cero;abogado;20-40;futbol;asado;buenos aires
+906;femenino;soltero;uno;panadero;20-40;voleibol;milanesa;buenos aires
+907;masculino;soltero;uno;abogado;40-60;voleibol;asado;buenos aires
+908;masculino;soltero;uno;abogado;40-60;voleibol;asado;buenos aires
+909;masculino;soltero;cero;taxista;40-60;natacion;milanesa;buenos aires
+910;masculino;viudo;cero;panadero;20-40;futbol;milanesa;buenos aires
+911;femenino;soltero;mas_de_dos;abogado;40-60;natacion;asado;buenos aires
+912;femenino;soltero;dos;carnicero;mas_de_60;natacion;asado;buenos aires
+913;masculino;casado;mas_de_dos;panadero;20-40;voleibol;milanesa;buenos aires
+914;femenino;casado;cero;abogado;40-60;futbol;asado;buenos aires
+915;femenino;casado;dos;abogado;40-60;voleibol;milanesa;buenos aires
+916;femenino;soltero;dos;carnicero;mas_de_60;voleibol;milanesa;buenos aires
+917;masculino;soltero;cero;abogado;40-60;natacion;sushi;buenos aires
+918;femenino;soltero;dos;carnicero;mas_de_60;futbol;pizza;buenos aires
+919;femenino;casado;uno;carnicero;40-60;voleibol;milanesa;rosario
+920;masculino;casado;cero;taxista;mas_de_60;voleibol;pizza;buenos aires
+921;masculino;soltero;mas_de_dos;taxista;40-60;futbol;asado;buenos aires
+922;masculino;casado;mas_de_dos;abogado;mas_de_60;voleibol;milanesa;buenos aires
+923;femenino;soltero;cero;abogado;mas_de_60;voleibol;asado;buenos aires
+924;masculino;soltero;dos;abogado;40-60;futbol;asado;buenos aires
+925;masculino;viudo;dos;abogado;20-40;futbol;milanesa;buenos aires
+926;masculino;soltero;mas_de_dos;abogado;20-40;voleibol;pizza;buenos aires
+927;femenino;casado;cero;abogado;mas_de_60;natacion;milanesa;buenos aires
+928;masculino;casado;dos;carnicero;40-60;basquetbol;asado;buenos aires
+929;femenino;casado;dos;abogado;40-60;natacion;milanesa;buenos aires
+930;masculino;soltero;cero;mozo;20-40;futbol;milanesa;buenos aires
+931;masculino;soltero;mas_de_dos;panadero;mas_de_60;natacion;pizza;buenos aires
+932;femenino;viudo;cero;abogado;40-60;natacion;milanesa;buenos aires
+933;masculino;viudo;uno;abogado;20-40;futbol;pollo al horno;buenos aires
+934;masculino;soltero;uno;mozo;mas_de_60;futbol;asado;buenos aires
+935;femenino;viudo;mas_de_dos;abogado;20-40;natacion;asado;buenos aires
+936;masculino;soltero;uno;panadero;mas_de_60;natacion;milanesa;buenos aires
+937;masculino;casado;dos;abogado;40-60;voleibol;asado;buenos aires
+938;femenino;casado;mas_de_dos;abogado;20-40;natacion;pizza;buenos aires
+939;femenino;soltero;mas_de_dos;mozo;20-40;futbol;sushi;buenos aires
+940;femenino;soltero;cero;panadero;40-60;natacion;asado;cordoba
+941;masculino;soltero;uno;carnicero;40-60;futbol;milanesa;buenos aires
+942;femenino;soltero;uno;panadero;40-60;voleibol;milanesa;buenos aires
+943;femenino;soltero;uno;panadero;20-40;natacion;asado;mendoza
+944;femenino;soltero;dos;panadero;40-60;basquetbol;pizza;buenos aires
+945;femenino;casado;dos;abogado;mas_de_60;voleibol;pizza;buenos aires
+946;masculino;soltero;uno;abogado;mas_de_60;voleibol;pollo al horno;buenos aires
+947;femenino;soltero;uno;carnicero;mas_de_60;natacion;asado;buenos aires
+948;femenino;casado;cero;taxista;mas_de_60;basquetbol;pizza;buenos aires
+949;masculino;soltero;mas_de_dos;carnicero;40-60;natacion;sushi;buenos aires
+950;femenino;soltero;uno;panadero;20-40;futbol;pizza;buenos aires
+951;masculino;soltero;uno;abogado;20-40;futbol;milanesa;buenos aires
+952;masculino;casado;cero;abogado;mas_de_60;voleibol;milanesa;buenos aires
+953;masculino;soltero;uno;abogado;40-60;basquetbol;milanesa;buenos aires
+954;masculino;soltero;dos;abogado;mas_de_60;voleibol;asado;buenos aires
+955;femenino;viudo;cero;abogado;mas_de_60;futbol;pizza;buenos aires
+956;femenino;viudo;dos;abogado;20-40;basquetbol;milanesa;buenos aires
+957;masculino;soltero;uno;taxista;mas_de_60;basquetbol;pizza;cordoba
+958;masculino;casado;mas_de_dos;abogado;40-60;basquetbol;milanesa;buenos aires
+959;femenino;soltero;uno;taxista;40-60;futbol;asado;buenos aires
+960;masculino;casado;uno;abogado;40-60;futbol;asado;cordoba
+961;femenino;soltero;uno;abogado;40-60;futbol;milanesa;buenos aires
+962;femenino;casado;dos;mozo;mas_de_60;natacion;pizza;buenos aires
+963;femenino;soltero;uno;panadero;40-60;natacion;milanesa;buenos aires
+964;masculino;soltero;mas_de_dos;panadero;mas_de_60;natacion;milanesa;buenos aires
+965;masculino;viudo;uno;abogado;mas_de_60;natacion;asado;buenos aires
+966;masculino;casado;uno;abogado;40-60;natacion;milanesa;buenos aires
+967;masculino;soltero;dos;carnicero;20-40;natacion;milanesa;buenos aires
+968;masculino;soltero;mas_de_dos;carnicero;40-60;futbol;milanesa;buenos aires
+969;femenino;viudo;dos;taxista;mas_de_60;voleibol;milanesa;buenos aires
+970;masculino;viudo;mas_de_dos;panadero;mas_de_60;basquetbol;pizza;buenos aires
+971;femenino;soltero;cero;abogado;20-40;natacion;asado;buenos aires
+972;masculino;viudo;uno;abogado;40-60;natacion;sushi;buenos aires
+973;femenino;casado;mas_de_dos;abogado;20-40;futbol;milanesa;buenos aires
+974;femenino;soltero;dos;abogado;40-60;natacion;pollo al horno;buenos aires
+975;femenino;casado;cero;panadero;20-40;natacion;milanesa;buenos aires
+976;masculino;soltero;uno;abogado;mas_de_60;natacion;milanesa;buenos aires
+977;femenino;casado;dos;abogado;mas_de_60;voleibol;sushi;buenos aires
+978;femenino;soltero;uno;abogado;40-60;voleibol;asado;buenos aires
+979;masculino;casado;cero;abogado;mas_de_60;natacion;milanesa;buenos aires
+980;masculino;casado;uno;abogado;40-60;futbol;pizza;buenos aires
+981;masculino;soltero;dos;carnicero;mas_de_60;voleibol;milanesa;buenos aires
+982;masculino;casado;cero;panadero;mas_de_60;voleibol;milanesa;buenos aires
+983;masculino;soltero;dos;panadero;20-40;natacion;sushi;buenos aires
+984;masculino;soltero;dos;abogado;40-60;natacion;milanesa;buenos aires
+985;femenino;casado;dos;abogado;20-40;futbol;milanesa;cordoba
+986;femenino;casado;dos;mozo;20-40;basquetbol;asado;buenos aires
+987;femenino;soltero;cero;panadero;mas_de_60;natacion;pizza;buenos aires
+988;femenino;viudo;uno;taxista;20-40;voleibol;pizza;buenos aires
+989;femenino;soltero;uno;taxista;40-60;natacion;milanesa;buenos aires
+990;femenino;soltero;cero;carnicero;40-60;basquetbol;sushi;buenos aires
+991;masculino;soltero;cero;abogado;mas_de_60;natacion;asado;cordoba
+992;femenino;soltero;cero;taxista;mas_de_60;voleibol;pizza;buenos aires
+993;masculino;viudo;uno;abogado;20-40;voleibol;milanesa;buenos aires
+994;femenino;soltero;dos;taxista;20-40;natacion;asado;buenos aires
+995;masculino;soltero;uno;carnicero;mas_de_60;voleibol;milanesa;buenos aires
+996;femenino;soltero;uno;taxista;20-40;natacion;asado;buenos aires
+997;masculino;casado;uno;taxista;mas_de_60;basquetbol;sushi;buenos aires
+998;femenino;soltero;uno;taxista;40-60;basquetbol;milanesa;buenos aires
+999;masculino;soltero;cero;taxista;20-40;futbol;asado;buenos aires
+1000;femenino;casado;cero;taxista;40-60;natacion;milanesa;buenos aires
