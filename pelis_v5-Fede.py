@@ -136,13 +136,16 @@ def armar_subgrafo():
     print(z)
 
 def borrar_nodos(pregunta, respuesta_usuario):
-    pregunta = "Deporte"#elegir_mejor_pregunta()
-    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(n:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(d:"+ pregunta +")-[a]->(b) where d." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN b"
+    #pregunta =elegir_mejor_pregunta()
+    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN persona"
     a = graph.data(query)
     cantidad_nodos_borrados = len(a)
-    query2 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(n:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(d:"+ pregunta +")-[a]->(b) where d." + pregunta.lower() + " <> '" + respuesta_usuario + "' DELETE b"
+    query2 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' DETACH DELETE v,persona"
+    graph.data(query2) #se eliminan los nodos personas que no sean incidentes a respuesta_usuario, mas los nodos que ya no serviran
+    query3 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " = '" + respuesta_usuario + "' DETACH DELETE v,p"
+    graph.data(query3)
     print("Se borraron " + str(cantidad_nodos_borrados) + "nodos Persona que no eran incidentes con " + respuesta_usuario)
-    return graph.data(query2)
+    #return graph.data(query2)
 
 #j=json.dumps(borrar_nodos("Deporte","natacion"), indent=2)
 #print(j)
@@ -150,13 +153,12 @@ def borrar_nodos(pregunta, respuesta_usuario):
 #%%%
 #Conversando con Watson
         
-genero = []
-actores = []
-directores = []
-clasicos = []
+comida = []
+sexo = []
 contexto={}
 response = {}
-output_text = "Conversación inciada."
+output_text = "Presione Enter para iniciar la conversación."
+preg_no_realizadas = lista_de_preguntas()
 
 while True:
     
@@ -171,16 +173,15 @@ while True:
                 context = contexto)
             
             print(json.dumps(response, indent=2))
+            
+            if response["output"]["nodes_visited"][-1] == "node_8_1519919216035":
+                response["context"]["pregunta"] = elegir_mejor_pregunta()
             """
-            if ("genero" in response["context"]):
-                genero.append(response["context"]["genero"])
-            if ("actores" in response["context"]):
-                actores.append(response["context"]["actores"]) 
-            if ("directores" in response["context"]):
-                directores.append(response["context"]["directores"])
-            if ("clasicos" in response["context"]):
-                clasicos.append(response["context"]["clasicos"])
-            """
+            if ("comida" in response["context"] and "Comida" in preg_no_realizadas):
+                True
+            if ("sexo" in response["context"]):
+                sexo.append(response["context"]["sexo"]) 
+                """
             contexto = response["context"]
             output_text = response["output"]["text"]
         else:
@@ -214,10 +215,17 @@ def mostrar_nodos(label_del_nodo):
 def mostrar_todos_los_nodos():
     query = "MATCH (nodo) RETURN nodo"
     return graph.data(query)
+
+def contar_nodos(label_del_nodo):
+    return len(mostrar_nodos(label_del_nodo))
+
+def contar_todos_los_nodos():
+    return len(mostrar_todos_los_nodos())
 #%%
 def mostrar_todo():
-    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(n:Pregunta { pregunta: 'deporte' })-[r]->(d:Deporte)-[a]->(b) where d.deporte <> 'natacion' return b"
+    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(n:Pregunta )-[r]->()-[a]->(b) return b"
     return graph.data(query)
+
 
 print(json.dumps(mostrar_todo(), indent=2))
 
