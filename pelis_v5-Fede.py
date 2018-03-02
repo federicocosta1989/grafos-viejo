@@ -145,12 +145,12 @@ def borrar_nodos(pregunta, respuesta_usuario):
     
     """ QUERYS DE BORRADO """
     query5 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' DETACH DELETE persona"
-
     graph.data(query5) #se eliminan los nodos personas que no sean incidentes a respuesta_usuario, mas los nodos que ya no serviran
-    query6 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v) DETACH DELETE v"
-
+    
+    query6 = "MATCH (v:" + pregunta + ") DETACH DELETE v"
     graph.data(query6)
-    query7 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' }) DETACH DELETE p"
+    
+    query7 = "MATCH (p:Pregunta { pregunta: '" + pregunta.lower() + "' }) DETACH DELETE p"
     graph.data(query7)
 
 def contar_nodos(label):
