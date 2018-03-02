@@ -178,10 +178,12 @@ def status():
         
 comida = []
 sexo = []
-contexto={}
+contexto={"pregunta": ""}
 response = {}
 output_text = "Presione Enter para iniciar la conversación."
 preg_no_realizadas = lista_de_preguntas()
+entidades = []
+preg_realizadas = []
 
 while True:
     
@@ -190,6 +192,7 @@ while True:
         input_text = input(output_text)
         
         if input_text not in ("Exit", "exit"):
+            
             response = conversation.message(
                 workspace_id = wks_id,
                 input = {'text': input_text},
@@ -197,19 +200,64 @@ while True:
             
             print(json.dumps(response, indent=2))
             
-            if response["output"]["nodes_visited"][-1] == "node_8_1519919216035":
+            if elegir_mejor_pregunta() in preg_realizadas:
+                response["context"]["pregunta"] = ""
+            
+            if response["output"]["nodes_visited"][-1] == "node_7_1520016504617":
+                print("entro en el if")
+                print(elegir_mejor_pregunta())
                 response["context"]["pregunta"] = elegir_mejor_pregunta()
+                preg_realizadas.append(elegir_mejor_pregunta())
+
+            #
+            contexto = response["context"]
+            output_text = response["output"]["text"]
+            
+        else:
+            break
+#%%              
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
             """
             if ("comida" in response["context"] and "Comida" in preg_no_realizadas):
                 True
             if ("sexo" in response["context"]):
                 sexo.append(response["context"]["sexo"]) 
                 """
-            contexto = response["context"]
-            output_text = response["output"]["text"]
-        else:
-            break
-        """
+                
+            """
         else:
         #query="MATCH(actor:Person)-[:ACTED_IN]->(movie:Movie)<-[:DIRECTED]-(director:Person) WHERE actor.name=" + "'" + actores[0] + "'" + "AND director.name=" + "'" + directores[0] + "'" +" AND movie.genre=" + "'" + genero[0] + "'" + " RETURN DISTINCT movie.title LIMIT 1;"
         queryMATCH = "MATCH(director:Person)-[:DIRECTED]->(movie:Movie)<-[:ACTED_IN]-(actor:Person)"
@@ -226,8 +274,6 @@ while True:
         print(hicho)
         break
 """
-
-#%%
 
 
 
