@@ -208,8 +208,7 @@ while True:
                 print(elegir_mejor_pregunta())
                 response["context"]["pregunta"] = elegir_mejor_pregunta()
                 preg_realizadas.append(elegir_mejor_pregunta())
-
-            #
+                
             contexto = response["context"]
             output_text = response["output"]["text"]
             
