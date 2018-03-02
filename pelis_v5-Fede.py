@@ -132,19 +132,22 @@ def borrar_nodos(pregunta, respuesta_usuario):
     #pregunta =elegir_mejor_pregunta()
     query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN count(persona)"
     print("Se borraron " + str(graph.data(query)[0]["count(persona)"]) + " nodos Persona")
-    query4 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN count(v)"
-    print("Se borraron " + str(graph.data(query4)[0]["count(v)"]) + " nodos " + pregunta)
+    query2 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN count(v)"
+    print("Se borraron " + str(graph.data(query2)[0]["count(v)"]) + " nodos " + pregunta)
     query10 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN v"
     j=graph.data(query10)
-    query5 = "MATCH (v:"+ pregunta +") where v." + pregunta.lower() + " = '" + respuesta_usuario + "' RETURN count(v)"
-    print("Se borraron " + str(graph.data(query5)[0]["count(v)"]) + " nodos " + pregunta)
-    query6 = "MATCH (p:Pregunta) where p.pregunta = '" + pregunta.lower() + "' RETURN count(p)"
-    print("Se borraron " + str(graph.data(query6)[0]["count(p)"]) + " nodos Pregunta")
-    query7 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' DETACH DELETE v,persona"
-    print(query7)
-    graph.data(query7) #se eliminan los nodos personas que no sean incidentes a respuesta_usuario, mas los nodos que ya no serviran
-    query8 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " = '" + respuesta_usuario + "' DETACH DELETE v,p"
-    graph.data(query8)
+    query3 = "MATCH (v:"+ pregunta +") where v." + pregunta.lower() + " = '" + respuesta_usuario + "' RETURN count(v)"
+    print("Se borraron " + str(graph.data(query3)[0]["count(v)"]) + " nodos " + pregunta)
+    query4 = "MATCH (p:Pregunta) where p.pregunta = '" + pregunta.lower() + "' RETURN count(p)"
+    print("Se borraron " + str(graph.data(query4)[0]["count(p)"]) + " nodos Pregunta")
+    query5 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' DETACH DELETE persona"
+    print(query5)
+    graph.data(query5) #se eliminan los nodos personas que no sean incidentes a respuesta_usuario, mas los nodos que ya no serviran
+    query6 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v) DETACH DELETE v"
+    print(query6)
+    graph.data(query6)
+    query7 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' }) DETACH DELETE p"
+    graph.data(query7)
     return j
     
 
