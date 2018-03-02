@@ -125,30 +125,48 @@ def lista_pesos():
     return lista_pes 
 
 def elegir_mejor_pregunta():
+    poner_pesos()
     return lista_de_preguntas()[lista_pesos().index(max(lista_pesos()))]
-#%%
-def armar_subgrafo():
-    pregunta = elegir_mejor_pregunta()
-    query3 = "MATCH ()-[w]->(n:Pregunta { pregunta: '"+ pregunta +"' })-[r]->() DELETE n,r,w"
-    graph.data(query3)
-    query4="MATCH (n:Pregunta { pregunta: '"+ pregunta +"' }) RETURN n"
-    z = graph.data(query4)
-    print(z)
 
 def borrar_nodos(pregunta, respuesta_usuario):
     #pregunta =elegir_mejor_pregunta()
-    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN persona"
-    a = graph.data(query)
-    cantidad_nodos_borrados = len(a)
-    query2 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' DETACH DELETE v,persona"
-    graph.data(query2) #se eliminan los nodos personas que no sean incidentes a respuesta_usuario, mas los nodos que ya no serviran
-    query3 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " = '" + respuesta_usuario + "' DETACH DELETE v,p"
-    graph.data(query3)
-    print("Se borraron " + str(cantidad_nodos_borrados) + "nodos Persona que no eran incidentes con " + respuesta_usuario)
-    #return graph.data(query2)
+    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN count(persona)"
+    print("Se borraron " + str(graph.data(query)[0]["count(persona)"]) + " nodos Persona")
+    query4 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN count(v)"
+    print("Se borraron " + str(graph.data(query4)[0]["count(v)"]) + " nodos " + pregunta)
+    query10 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' RETURN v"
+    j=graph.data(query10)
+    query5 = "MATCH (v:"+ pregunta +") where v." + pregunta.lower() + " = '" + respuesta_usuario + "' RETURN count(v)"
+    print("Se borraron " + str(graph.data(query5)[0]["count(v)"]) + " nodos " + pregunta)
+    query6 = "MATCH (p:Pregunta) where p.pregunta = '" + pregunta.lower() + "' RETURN count(p)"
+    print("Se borraron " + str(graph.data(query6)[0]["count(p)"]) + " nodos Pregunta")
+    query7 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +")-[a]->(persona) where v." + pregunta.lower() + " <> '" + respuesta_usuario + "' DETACH DELETE v,persona"
+    print(query7)
+    graph.data(query7) #se eliminan los nodos personas que no sean incidentes a respuesta_usuario, mas los nodos que ya no serviran
+    query8 = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(p:Pregunta { pregunta: '" + pregunta.lower() + "' })-[r]->(v:"+ pregunta +") where v." + pregunta.lower() + " = '" + respuesta_usuario + "' DETACH DELETE v,p"
+    graph.data(query8)
+    return j
+    
 
-#j=json.dumps(borrar_nodos("Deporte","natacion"), indent=2)
-#print(j)
+def contar_nodos(label):
+    """ label_del_nodo puede ser cualquiera de los siguientes strings: "Inicio", "Pregunta", "Profesion", ... , "Persona" """ 
+    query = "MATCH (" + label.lower() + ":" + label+ ") RETURN count(" + label.lower() + ")"
+    return graph.data(query)[0]["count(" + label.lower() + ")"]
+
+def lista_labels():
+    query = "match (i) return distinct labels(i)"
+    lista = []
+    aux = graph.data(query)
+    for item in aux:
+        lista.append(item["labels(i)"][0])
+    return lista
+        
+def status():
+    dict_ = {}
+    for item in lista_labels():
+        dict_[item]=contar_nodos(item)
+    return dict_
+
 
 #%%%
 #Conversando con Watson
@@ -205,37 +223,6 @@ while True:
 """
 
 #%%
-#querys para corroborar
-
-def mostrar_nodos(label_del_nodo):
-    """ label_del_nodo puede ser cualquiera de los siguientes strings: "Inicio", "Pregunta", "Profesion", ... , "Persona" """ 
-    query = "MATCH (" + label_del_nodo.lower() + ":" + label_del_nodo + ") RETURN " + label_del_nodo.lower()
-    return graph.data(query)
-
-def mostrar_todos_los_nodos():
-    query = "MATCH (nodo) RETURN nodo"
-    return graph.data(query)
-
-def contar_nodos(label_del_nodo):
-    return len(mostrar_nodos(label_del_nodo))
-
-def contar_todos_los_nodos():
-    return len(mostrar_todos_los_nodos())
-#%%
-def mostrar_todo():
-    query = "MATCH (i:Inicio { nombre: 'inicio' })-[w]->(n:Pregunta )-[r]->()-[a]->(b) return b"
-    return graph.data(query)
-
-
-print(json.dumps(mostrar_todo(), indent=2))
-
-len(mostrar_todo())
-
-
-
-
-
-
 
 
 
