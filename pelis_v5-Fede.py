@@ -152,6 +152,7 @@ def borrar_nodos(pregunta, respuesta_usuario):
     
     query7 = "MATCH (p:Pregunta { pregunta: '" + pregunta.lower() + "' }) DETACH DELETE p"
     graph.data(query7)
+    
 
 def contar_nodos(label):
     """ label_del_nodo puede ser cualquiera de los siguientes strings: "Inicio", "Pregunta", "Profesion", ... , "Persona" """ 
@@ -176,25 +177,20 @@ def status():
 #%%%
 #Conversando con Watson
         
-comida = []
-sexo = []
 contexto={}
 response = {}
 output_text = "Presione Enter para iniciar la conversación."
-#preg_no_realizadas = lista_de_preguntas()
-entidades = []
 preg_realizadas = []
-
+proceso_finalizado=False
 
 while True:
     
-    if not("output" in response) or response["output"]["nodes_visited"][-1] != "node_17_1519053529305":
+    if proceso_finalizado == False:
     
         input_text = input(output_text)
         
         if input_text not in ("Exit", "exit"):
             
-            #if len(preg_realizadas) == 0 or len(preg_realizadas) == 8:
             response = conversation.message(
                 workspace_id = wks_id,
                 input = {'text': input_text},
@@ -204,10 +200,7 @@ while True:
             
             #nodo buscar pregunta
             while response["output"]["nodes_visited"][-1] == "node_8_1519919216035" and len(preg_realizadas) < 8: 
-                #print(elegir_mejor_pregunta())
-                #if elegir_mejor_pregunta() in preg_realizadas:
-                #    response["context"]["pregunta"] = ""
-                #contexto = response["context"]
+                
                 contexto["pregunta"] = elegir_mejor_pregunta()
                 preg_realizadas.append(elegir_mejor_pregunta())
                 response = conversation.message(
@@ -223,27 +216,35 @@ while True:
                     input = {'text': input_text},
                     context = contexto)
                 print(json.dumps(response, indent=2))
+                
                 #nodo modificar grafo
                 if response["output"]["nodes_visited"][-1] == "node_2_1520257377168":
                     response["context"]["respuesta"] = response["context"][response["context"]["pregunta"].lower()]
-                    #print(elegir_mejor_pregunta())
-                    #if elegir_mejor_pregunta() in preg_realizadas:
-                    #    response["context"]["pregunta"] = ""
-                    borrar_nodos(response["context"]["pregunta"], response["context"]["respuesta"])
-                    #contexto = response["context"]
-                    #contexto["pregunta"] = elegir_mejor_pregunta()
-                    #preg_realizadas.append(elegir_mejor_pregunta())
-                
+                    borrar_nodos(response["context"]["pregunta"], response["context"]["respuesta"])               
                     contexto = response["context"]
                     contexto["pregunta"] = ""
                     contexto["respuesta"] = ""
+                    
+                    if contar_nodos("Persona") <= 1:
+                        query = "MATCH (p:Persona) RETURN p.persona"
+                        graph.data(query)
+                        print("Usted ha elegido a la persona" + str(graph.data(query)))
+                        proceso_finalizado = True
+                    
+                    if proceso_finalizado:
+                        break
+                    
                     response = conversation.message(
                         workspace_id = wks_id,
                         input = {'text': ""},
                         context = contexto)
                     print(json.dumps(response, indent=2))
                     contexto = response["context"]
-                
+                    
+                if proceso_finalizado:
+                        break
+            if proceso_finalizado:
+                        break    
             contexto = response["context"]
             output_text = response["output"]["text"]
             
