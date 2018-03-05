@@ -17,7 +17,7 @@ from watson_developer_cloud import ConversationV1
 user = '0eafd8c8-3aba-486a-8c39-0d9919459589'
 pass_ = 'Lw8yNivJxfCF'
 ver = '2018-02-16'
-wks_id = '24bf9c22-643b-46df-9da0-bb285f13952f'
+wks_id = '709a28e8-4d67-4f26-85fa-a12a6f67087b'
 
 conversation = ConversationV1(username=user,password=pass_,version=ver)
 #%%
@@ -178,12 +178,13 @@ def status():
         
 comida = []
 sexo = []
-contexto={"pregunta": ""}
+contexto={}
 response = {}
 output_text = "Presione Enter para iniciar la conversación."
-preg_no_realizadas = lista_de_preguntas()
+#preg_no_realizadas = lista_de_preguntas()
 entidades = []
 preg_realizadas = []
+
 
 while True:
     
@@ -193,29 +194,135 @@ while True:
         
         if input_text not in ("Exit", "exit"):
             
+            #if len(preg_realizadas) == 0 or len(preg_realizadas) == 8:
             response = conversation.message(
                 workspace_id = wks_id,
                 input = {'text': input_text},
                 context = contexto)
-            
             print(json.dumps(response, indent=2))
+            contexto = response["context"]
             
-            if elegir_mejor_pregunta() in preg_realizadas:
-                response["context"]["pregunta"] = ""
-            
-            if response["output"]["nodes_visited"][-1] == "node_7_1520016504617":
-                print("entro en el if")
-                print(elegir_mejor_pregunta())
-                response["context"]["pregunta"] = elegir_mejor_pregunta()
+            #nodo buscar pregunta
+            while response["output"]["nodes_visited"][-1] == "node_8_1519919216035" and len(preg_realizadas) < 8: 
+                #print(elegir_mejor_pregunta())
+                #if elegir_mejor_pregunta() in preg_realizadas:
+                #    response["context"]["pregunta"] = ""
+                #contexto = response["context"]
+                contexto["pregunta"] = elegir_mejor_pregunta()
                 preg_realizadas.append(elegir_mejor_pregunta())
+                response = conversation.message(
+                    workspace_id = wks_id,
+                    input = {'text': ""},
+                    context = contexto)
+                print(json.dumps(response, indent=2))
+                contexto = response["context"]
+                output_text = response["output"]["text"]
+                input_text = input(output_text)
+                response = conversation.message(
+                    workspace_id = wks_id,
+                    input = {'text': input_text},
+                    context = contexto)
+                print(json.dumps(response, indent=2))
+                #nodo modificar grafo
+                if response["output"]["nodes_visited"][-1] == "node_2_1520257377168":
+                    response["context"]["respuesta"] = response["context"][response["context"]["pregunta"].lower()]
+                    #print(elegir_mejor_pregunta())
+                    #if elegir_mejor_pregunta() in preg_realizadas:
+                    #    response["context"]["pregunta"] = ""
+                    borrar_nodos(response["context"]["pregunta"], response["context"]["respuesta"])
+                    #contexto = response["context"]
+                    #contexto["pregunta"] = elegir_mejor_pregunta()
+                    #preg_realizadas.append(elegir_mejor_pregunta())
+                
+                    contexto = response["context"]
+                    contexto["pregunta"] = ""
+                    contexto["respuesta"] = ""
+                    response = conversation.message(
+                        workspace_id = wks_id,
+                        input = {'text': ""},
+                        context = contexto)
+                    print(json.dumps(response, indent=2))
+                    contexto = response["context"]
                 
             contexto = response["context"]
             output_text = response["output"]["text"]
             
         else:
             break
-#%%              
-                
+#%%             
+input_text = ""
+contexto = {}
+
+response = conversation.message(
+                workspace_id = wks_id,
+                input = {'text': input_text},
+                context = contexto,
+                intents = [ {"intent": "buscar_personas","confidence": 0.950630569458008} ]
+                )
+            
+print(json.dumps(response, indent=2))
+contexto = response["context"]
+
+contexto["pregunta"] = "comida"
+response = conversation.message(
+                workspace_id = wks_id,
+                input = {'text': input_text},
+                context = contexto
+                )
+            
+print(json.dumps(response, indent=2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nodo Buscar Personas
+response = conversation.get_dialog_node(
+    workspace_id = wks_id,
+    dialog_node = 'node_4_1519918252072'
+)
+
+print(json.dumps(response, indent=2))
+
+#nodo Buscar Mejor Pregunta
+response = conversation.get_dialog_node(
+    workspace_id = wks_id,
+    dialog_node = 'node_8_1519919216035'
+)
+
+print(json.dumps(response, indent=2))
+
+#nodo intermedio
+response = conversation.get_dialog_node(
+    workspace_id = wks_id,
+    dialog_node = 'node_7_1520016504617'
+)
+
+print(json.dumps(response, indent=2))
+
+#nodo modificando grafo
+response = conversation.get_dialog_node(
+    workspace_id = wks_id,
+    dialog_node = 'node_2_1520257377168'
+)
+
+print(json.dumps(response, indent=2))
+
+response = conversation.list_dialog_nodes(
+    workspace_id = wks_id
+)
+
+print(json.dumps(response, indent=2))
 
 
 
@@ -238,17 +345,7 @@ while True:
 
 
 
-
-
-
-
-
-
-
-
-
-
-           
+#%%          
             """
             if ("comida" in response["context"] and "Comida" in preg_no_realizadas):
                 True
