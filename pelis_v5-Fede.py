@@ -36,7 +36,7 @@ def crear_nodos_desde_csv(nombre):
     graph.data("LOAD CSV WITH HEADERS FROM 'file:///" + nombre.lower() + ".csv' AS line MERGE (" + nombre + ":" + nombre + "{ " + nombre.lower() + ":line." + nombre.lower() + " })")
 
 #Creo un nodo INICIO desde donde vamos a arrancar a preguntar:
-graph.data("create (i:Inicio {nombre:'inicio'})")
+graph.data("MERGE (i:Inicio {nombre:'inicio'})")
 
 crear_nodos_desde_csv("Pregunta")
 
@@ -198,6 +198,9 @@ while True:
             print(json.dumps(response, indent=2))
             contexto = response["context"]
             
+            #ver si el usuario ingresa variables de contexto antes y usar eso para borrar nodos
+            
+            
             #nodo buscar pregunta
             while response["output"]["nodes_visited"][-1] == "node_8_1519919216035" and len(preg_realizadas) < 8: 
                 
@@ -228,7 +231,7 @@ while True:
                     if contar_nodos("Persona") <= 1:
                         query = "MATCH (p:Persona) RETURN p.persona"
                         graph.data(query)
-                        print("Usted ha elegido a la persona" + str(graph.data(query)))
+                        print("Usted ha elegido a la persona " + str((graph.data(query))[0]["p.persona"]))
                         proceso_finalizado = True
                     
                     if proceso_finalizado:
