@@ -72,6 +72,23 @@ graph.data("LOAD CSV WITH HEADERS FROM 'file:///nodos_personas.csv' AS line FIEL
 #Aristas entre el nodo ficticio Inicio y los nodos con las posibles preguntas:
 graph.data("MATCH(i:Inicio),(pr:Pregunta) WHERE i.nombre='inicio' MERGE (i)-[w:PREGUNTAR]->(pr)")
 
+
+#creo indices para cada tipo de nodo (segun Neo4j esto hace que la busqueda sea mas rapida)
+def crear_indices(categoria):
+    graph.data("create index on :" + categoria+"("+categoria.lower()+")")
+    
+crear_indices("Persona")
+crear_indices("Pregunta")
+crear_indices("Sexo")
+crear_indices("Profesion")
+crear_indices("Estado_Civil")
+crear_indices("Cantidad_Hijos")
+crear_indices("Edad")
+crear_indices("Comida")
+crear_indices("Lugar_Nacimiento")
+crear_indices("Deporte")
+
+
 #%%
 def sumaDeLista(lista):
     sum = 0
